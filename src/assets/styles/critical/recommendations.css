@@ -1,0 +1,35 @@
+@import '../base/variables';
+@import '../base/breakpoints';
+
+/** Recommendations */
+.recommendations-intro {
+  grid-column: 2 / -2;
+  grid-row: 1;
+}
+
+@media (--tablet) {
+  .recommendations-intro {
+    grid-column: 6 / -6;
+  }
+}
+
+.recommendations-books {
+  grid-column: 2 / -2;
+  grid-row: 2;
+}
+
+.recommendations-movies {
+  grid-column: 2 / -2;
+  grid-row: 3;
+}
+
+.recommendations-container {
+  display: grid;
+  grid-column-gap: var(--space-5);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.recommendations-product-title {
+  font-size: var(--font-size-2);
+  padding-block-start: var(--space-2);
+}

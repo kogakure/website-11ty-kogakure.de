@@ -8,7 +8,7 @@
 
 {%- set ogDescription -%}
   {%- if page.url === "/" -%}
-    {{ site.tagline }}
+    {{ site.description }}
   {%- else -%}
     {{ description or title }}
   {%- endif -%}

@@ -1,5 +1,4 @@
 const pluginLazyImages = require('eleventy-plugin-lazyimages');
-
 const filterNbsp = require('eleventy-nbsp-filter');
 
 const filters = require('./src/utils/filters.js');
@@ -14,24 +13,18 @@ module.exports = function (config) {
 
   // Markdown It
   let markdownIt = require('markdown-it');
-  let markdownItFootnotes = require('markdown-it-footnote');
   let markdownItGitHubHeadings = require('markdown-it-github-headings');
-  let markdownItSub = require('markdown-it-sub');
-  let markdownItSup = require('markdown-it-sup');
   let markdownItExternalAnchor = require('markdown-it-external-anchor');
   let options = {
     html: true,
   };
 
   let markdownLib = markdownIt(options)
-    .use(markdownItFootnotes)
     .use(markdownItGitHubHeadings)
     .use(markdownItExternalAnchor, {
       domain: 'www.kogakure.de',
       class: 'external',
-    })
-    .use(markdownItSub)
-    .use(markdownItSup);
+    });
 
   config.setLibrary('md', markdownLib);
 
@@ -44,6 +37,15 @@ module.exports = function (config) {
   }
 
   // Shortcodes
+  config.addShortcode('download', shortcodes.download);
+  config.addShortcode('duoColorImage', shortcodes.duoColorImage);
+  config.addShortcode('email', shortcodes.email);
+  config.addShortcode('more', shortcodes.more);
+  config.addShortcode('product', shortcodes.product);
+  config.addShortcode('youtube', shortcodes.youtube);
+  config.addPairedShortcode('banner', shortcodes.banner);
+  config.addPairedShortcode('figure', shortcodes.figure);
+  config.addPairedShortcode('productshelf', shortcodes.productshelf);
 
   // Filters
   Object.keys(filters).forEach((filterName) => {
@@ -55,11 +57,21 @@ module.exports = function (config) {
   config.addWatchTarget('src/assets');
 
   // Copy static files to dist
-  config.addPassthroughCopy({ 'src/static/**/*.{xml,html,ico}': '.' });
-  config.addPassthroughCopy({ 'src/static/.well-known/*': '.well-known' });
-  config.addPassthroughCopy({ 'src/downloads': 'downloads' });
-  config.addPassthroughCopy({ 'src/assets/fonts': 'assets/fonts' });
-  config.addPassthroughCopy({ 'src/assets/images': 'assets/images' });
+  config.addPassthroughCopy({
+    'src/static/**/*.{xml,html,ico}': '.',
+  });
+  config.addPassthroughCopy({
+    'src/static/.well-known/*': '.well-known',
+  });
+  config.addPassthroughCopy({
+    'src/downloads': 'downloads',
+  });
+  config.addPassthroughCopy({
+    'src/assets/fonts': 'assets/fonts',
+  });
+  config.addPassthroughCopy({
+    'src/assets/images': 'assets/images',
+  });
 
   // Deep-Merge
   config.setDataDeepMerge(true);

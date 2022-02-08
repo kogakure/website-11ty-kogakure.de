@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Shinobi no Mono",
+    "cover": "/assets/images/recommendations/movies/shinobi-no-mono-1.jpg",
+    "imdb": "tt0164882"
+  },
+  {
+    "title": "Zoku Shinobi no Mono",
+    "cover": "/assets/images/recommendations/movies/shinobi-no-mono-2.jpg",
+    "imdb": "tt0200310"
+  },
+  {
+    "title": "Shin Shinobi no Mono",
+    "cover": "/assets/images/recommendations/movies/shinobi-no-mono-3.jpg",
+    "imdb": "tt0187501"
+  },
+  {
+    "title": "Shinobi no Mono: Kirigakure Saizo",
+    "cover": "/assets/images/recommendations/movies/shinobi-no-mono-4.jpg",
+    "imdb": "tt0224098"
+  },
+  {
+    "title": "Shinobi no Mono: Zoku Kirigakure Saizo",
+    "cover": "/assets/images/recommendations/movies/shinobi-no-mono-5.jpg",
+    "imdb": "tt0199023"
+  },
+  {
+    "title": "Shinobi no Mono: Iga-yashiki",
+    "cover": "/assets/images/recommendations/movies/shinobi-no-mono-6.jpg",
+    "imdb": "tt0224097"
+  },
+  {
+    "title": "Shinobi no Mono: Shin kirigakure Saizo",
+    "cover": "/assets/images/recommendations/movies/shinobi-no-mono-7.jpg",
+    "imdb": "tt0058592"
+  },
+  {
+    "title": "Shinsho: Shinobi no Mono",
+    "cover": "/assets/images/recommendations/movies/shinobi-no-mono-8.jpg",
+    "imdb": "tt0201924"
+  },
+  {
+    "title": "Akira Kurosawa - Samurai Edition",
+    "cover": "/assets/images/recommendations/movies/akira-kurosawa-samurai-edition.jpg",
+    "asin": "B0031BRLTS"
+  },
+  {
+    "title": "Die sieben Samurai",
+    "originalTitle": "Shichinin no samurai",
+    "cover": "/assets/images/recommendations/movies/sieben-samurai.jpg",
+    "asin": "B004N6XW3E",
+    "imdb": "tt0047478"
+  },
+  {
+    "title": "Das Schloß im Spinnwebwald",
+    "originalTitle": "Kumonosu-jô",
+    "cover": "/assets/images/recommendations/movies/throne-of-blood.jpg",
+    "asin": "B002S1PABS",
+    "imdb": "tt0050613"
+  },
+  {
+    "title": "Die Verborgene Festung",
+    "originalTitle": "Kakushi-toride no san-akunin",
+    "cover": "/assets/images/recommendations/movies/hidden-fortress.jpg",
+    "asin": "B002ZWMR98",
+    "imdb": "tt0051808"
+  },
+  {
+    "title": "Yojimbo – Der Leibwächter",
+    "originalTitle": "Yôjinbô",
+    "cover": "/assets/images/recommendations/movies/yojinbo.jpg",
+    "asin": "B002S1PADQ",
+    "imdb": "tt0055630"
+  },
+  {
+    "title": "Rashomon",
+    "cover": "/assets/images/recommendations/movies/rashomon.jpg",
+    "asin": "3866153198",
+    "imdb": "tt0042876"
+  },
+  {
+    "title": "Sanjuro",
+    "originalTitle": "Tsubaki Sanjûrô",
+    "cover": "/assets/images/recommendations/movies/sanjuro.jpg",
+    "asin": "B0007PLFBG",
+    "imdb": "tt0056443"
+  },
+  {
+    "title": "Kagemusha - Der Schatten des Kriegers",
+    "originalTitle": "Kagemusha",
+    "cover": "/assets/images/recommendations/movies/kagemusha.jpg",
+    "asin": "B00008OX3W",
+    "imdb": "tt0080979"
+  },
+  {
+    "title": "Ran",
+    "cover": "/assets/images/recommendations/movies/ran.jpg",
+    "asin": "B00030EJJA",
+    "imdb": "tt0089881"
+  },
+  {
+    "title": "Last Samurai",
+    "originalTitle": "The Last Samurai",
+    "cover": "/assets/images/recommendations/movies/last-samurai.jpg",
+    "asin": "B0001G6PZC",
+    "imdb": "tt0325710"
+  },
+  {
+    "title": "Lady Snowblood",
+    "originalTitle": "Shurayukihime",
+    "cover": "/assets/images/recommendations/movies/lady-snowblood.jpg",
+    "asin": "B0006VBJPI",
+    "imdb": "tt0158714"
+  },
+  {
+    "title": "Zatoichi - Der blinde Samurai",
+    "originalTitle": "Zatôichi",
+    "cover": "/assets/images/recommendations/movies/zatoichi.jpg",
+    "asin": "B0006SN4W2",
+    "imdb": "tt0363226"
+  },
+  {
+    "title": "Samurai der Dämmerung",
+    "originalTitle": "Tasogare Seibei",
+    "cover": "/assets/images/recommendations/movies/twilight-samurai.jpg",
+    "asin": "B000L42W88",
+    "imdb": "tt0351817"
+  },
+  {
+    "title": "Samurai Fiction",
+    "originalTitle": "SF: Episode One",
+    "cover": "/assets/images/recommendations/movies/samurai-fiction.jpg",
+    "asin": "B0001E3AM0",
+    "imdb": "tt0170544"
+  },
+  {
+    "title": "Lone Wolf & Cub",
+    "originalTitle": "Kozure ôkami",
+    "cover": "/assets/images/recommendations/movies/kozure-okami.jpg",
+    "asin": "B000C9CYF8"
+  },
+  {
+    "title": "Shogun",
+    "cover": "/assets/images/recommendations/movies/shogun.jpg",
+    "asin": "B0001BG4C6",
+    "imdb": "tt0080274"
+  },
+  {
+    "title": "Hero",
+    "originalTitle": "Ying xiong",
+    "cover": "/assets/images/recommendations/movies/hero.jpg",
+    "asin": "B000JGW828",
+    "imdb": "tt0299977"
+  },
+  {
+    "title": "Ghost Dog - Der Weg des Samurai",
+    "originalTitle": "Ghost Dog: The Way of the Samurai",
+    "cover": "/assets/images/recommendations/movies/ghost-dog.jpg",
+    "asin": "B00004U9Q9",
+    "imdb": "tt0165798"
+  }
+]

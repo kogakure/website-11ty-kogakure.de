@@ -1,0 +1,85 @@
+@import '../base/variables';
+@import '../base/breakpoints';
+
+/** Glossary */
+.glossary-intro {
+  grid-column: 2 / -2;
+  grid-row: 1;
+}
+
+@media (--tablet) {
+  .glossary-intro {
+    grid-column: 6 / -6;
+  }
+}
+
+.glossary-list {
+  grid-column: 2 / -2;
+  grid-row: 2;
+}
+
+@media (--tablet) {
+  .glossary-list {
+    grid-column: 5 / -5;
+  }
+}
+
+.glossary-list-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-block-end: var(--space-10);
+  padding-block-end: var(--space-10);
+  padding-inline-start: 0;
+  width: 100%;
+}
+
+@media (width >= 450px) {
+  .glossary-list-item {
+    flex-direction: row;
+  }
+}
+
+.glossary-list-item-romanji {
+  flex-grow: 1;
+  font-feature-settings: 'liga', 'dlig';
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-black);
+  hyphens: manual;
+  letter-spacing: -0.02em;
+  line-height: var(--line-height-1);
+  padding-block-end: var(--space-2);
+  padding-right: var(--space-10);
+}
+
+@media (width >= 450px) {
+  .glossary-list-item-romanji {
+    margin-block-end: 0 !important;
+  }
+}
+
+.glossary-list-item-japanese {
+  flex-grow: 1;
+  font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-thin);
+  letter-spacing: -0.02em;
+  line-height: var(--line-height-1);
+  padding-block-end: var(--space-2);
+}
+
+@media (width >= 450px) {
+  .glossary-list-item-japanese {
+    text-align: end;
+  }
+}
+
+.glossary-list-item-translation {
+  color: var(--color-accent-primary);
+  margin-block-end: var(--space-2);
+  width: 100%;
+}
+
+.glossary-list-item-description {
+  width: 100%;
+}

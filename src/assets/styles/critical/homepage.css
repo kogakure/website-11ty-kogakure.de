@@ -1,0 +1,94 @@
+@import '../base/variables';
+@import '../base/breakpoints';
+
+/** Homepage Intro */
+.homepage-intro {
+  grid-column: 2 / -2;
+  grid-row: 1;
+}
+
+@media (--tablet) {
+  .homepage-intro {
+    grid-column: 6 / -6;
+  }
+}
+
+.homepage-title {
+  font-family: Sword Kanji, Hiragino Kaku Gothic Std, sans-serif;
+  font-size: var(--font-size-8);
+  margin-block-end: var(--space-10);
+  position: relative;
+}
+
+/** Homepage TOC */
+.homepage-toc {
+  grid-column: 2 / -2;
+  grid-row: 2;
+}
+
+@media (--desktop) {
+  .homepage-toc {
+    grid-column: 3 / -3;
+  }
+}
+
+.homepage-toc-title {
+  padding-inline-start: 2.5rem;
+}
+
+.homepage-toc-intro {
+  list-style: none;
+  padding-inline-start: 2.5rem;
+}
+
+.homepage-toc-content {
+  column-gap: 3rem;
+  column-width: 18rem;
+  counter-reset: section;
+  list-style: none;
+  padding-inline-start: 2.5rem;
+  position: relative;
+}
+
+.homepage-toc-content ol {
+  counter-reset: section;
+  list-style: none;
+  margin: 0;
+  padding-block-end: var(--space-5);
+  padding-block-start: var(--space-5);
+  padding-inline-start: 0;
+}
+
+.homepage-toc-content > li {
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-black);
+  line-height: 1;
+}
+
+.homepage-toc-content ol > li {
+  font-weight: var(--font-weight-thin);
+  line-height: 1.6;
+  position: relative;
+}
+
+/** Safari Bug: Multicolumn hides numbers */
+.homepage-toc-content li::before {
+  color: var(--color-fg-soft);
+  content: counters(section, '.') ' ';
+  counter-increment: section;
+  font-weight: lighter;
+  left: -2.5rem;
+  position: absolute;
+  text-align: end;
+  width: 2rem;
+}
+
+.homepage-toc-content .homepage-toc-chapter::before {
+  color: var(--color-accent-primary);
+}
+
+.homepage-toc-chapter {
+  break-inside: avoid;
+  margin-bottom: var(--space-10);
+  position: relative;
+}

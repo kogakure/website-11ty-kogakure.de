@@ -6,14 +6,14 @@
 
     <title>
     {%- if page.url === "/" -%}
-      {{ site.author }} · {{ site.description }}
+      {{ site.title }} · {{ site.description }}
     {%- else -%}
-      {{ title }} · {{ site.author }}
+      {{ title }} · {{ site.title }}
     {%- endif -%}
     </title>
 
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-    
+
     <script type="module">
       document.documentElement.classList.remove('no-js');
       document.documentElement.classList.add('js');
@@ -26,7 +26,7 @@
     {% include "preload.njk" %}
     {% include "robots.njk" %}
   </head>
-  <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
+  <body {% if bodyClass %}class="{{ bodyClass }}"{% endif %} id="top">
     {% include "icon-sprites.njk" %}
     {{ content | safe }}
     <script src="/assets/scripts/main.js" async></script>

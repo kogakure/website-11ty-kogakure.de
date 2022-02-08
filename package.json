@@ -9,9 +9,9 @@
     "build:sw": "workbox generateSW workbox.config.js",
     "clean": "npx del dist",
     "debug": "DEBUG=* npx eleventy",
-    "plop": "plop",
     "prebuild": "npm run clean",
     "prestart": "npm run clean",
+    "publish": "npm-run-all build deploy",
     "start": "npm run watch",
     "svg": "gulp svg",
     "watch": "npm-run-all --parallel watch:*",
@@ -29,7 +29,7 @@
   "license": "ISC",
   "homepage": "https://www.kogakure.de",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^0.11.1",
     "autoprefixer": "^10.2.5",
     "babelify": "^10.0.0",
     "browserify": "^17.0.0",
@@ -49,16 +49,12 @@
     "gulp-svg-sprite": "^1.5.0",
     "html-minifier": "^4.0.0",
     "markdown-it-external-anchor": "^1.0.0",
-    "markdown-it-footnote": "^3.0.2",
     "markdown-it-github-headings": "^2.0.0",
-    "markdown-it-sub": "^1.0.0",
-    "markdown-it-sup": "^1.0.0",
     "moment": "^2.29.1",
     "npm-run-all": "^4.1.5",
     "outdent": "^0.8.0",
     "postcss": "^8.2.13",
     "postcss-100vh-fix": "^1.0.2",
-    "postcss-advanced-variables": "^3.0.1",
     "postcss-cli": "^8.3.1",
     "postcss-custom-media": "^8.0.0",
     "postcss-custom-properties": "^11.0.0",
@@ -68,6 +64,7 @@
     "postcss-nested": "^5.0.5",
     "postcss-sort-media-queries": "^3.8.9",
     "prettier": "^2.2.1",
+    "sal.js": "^0.8.4",
     "stylelint": "^13.13.0",
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-prettier": "^8.0.2",
@@ -80,5 +77,6 @@
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
     "workbox-cli": "^6.1.5"
-  }
+  },
+  "dependencies": {}
 }

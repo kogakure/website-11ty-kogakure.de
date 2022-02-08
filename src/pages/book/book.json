@@ -1,0 +1,6 @@
+{
+  "layout": "page",
+  "permalink": "/{{ page.fileSlug }}/",
+  "tags": ["book"],
+  "templateEngineOverride": "njk,md"
+}

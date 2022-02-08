@@ -1,0 +1,15 @@
+{% if isHome %}
+  <div class="home-link-spacer"></div>
+{% else %}
+  <a class="home-link" href="/" title="Back to Homepage">
+    <button
+      class="home-link-button"
+      aria-label="Back to Homepage"
+      type="button"
+    >
+      <svg class="home-link-icon" aria-hidden="true"  viewBox="0 0 24 24" width="1em" height="1em">
+        <use xlink:href="#ancient-pavilion"></use>
+      </svg>
+    </button>
+  </a>
+{% endif %}

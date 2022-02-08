@@ -1,7 +1,47 @@
 ---
-layout: base
+layout: fullsize
 title: Home
 permalink: /
+css: homepage.css
+isHome: true
 ---
 
-Hello, world!
+<div class="homepage-intro">
+  <h1 class="homepage-title">木隠</h1>
+  <p>
+    Dies ist 木隠 (jap. <em>kogakure</em>,
+    <q>Verborgen hinter Blättern und Bäumen.</q>), eine Sammlung von Artikeln über
+    Ninja und Ninjutsu mit der ich 1999 begonnen haben. Im Laufe der Jahre kamen
+    immer mehr Seiten, Bilder und Illustrationen hinzu.
+  </p>
+</div>
+
+<section class="homepage-toc">
+  <h2 class="homepage-toc-title">Inhaltsverzeichnis</h2>
+  <nav>
+    <ol class="homepage-toc-intro">
+      <li>
+        <a href="/vorwort/">Vorwort</a>
+      </li>
+      <li>
+        <a href="/ninjutsu/">Einleitung</a>
+      </li>
+    </ol>
+    <ol class="homepage-toc-content">
+    {% for chapter in toc %}
+      <li class="homepage-toc-chapter">
+        {{ chapter.title }}
+        <ol>
+          {% for section in chapter.items %}
+          <li class="homepage-toc-">
+            <a href="/{{ section.slug }}/">
+              {{ section.title }}
+            </a>
+          </li>
+          {% endfor %}
+        </ol>
+      </li>
+    {% endfor %}
+    </ol>
+  </nav>
+</section>

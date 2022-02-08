@@ -1,0 +1,82 @@
+---
+layout: fullsize
+title: Empfehlungen
+priority: 910
+permalink: /empfehlungen/
+css: recommendations.css
+tags:
+  - book
+---
+
+{% set previousPost = collections.sortedBookPages | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.sortedBookPages | getNextCollectionItem(page) %}
+
+<div class="recommendations-intro">
+  <h1 class="recommendations-title">Empfehlungen</h1>
+  <p>
+    Ich empfehle hier <strong>{{ books.length }}</strong> Bücher und
+    <strong>{{ movies.length }}</strong> Filme aus den Themenbereichen Ninja,
+    Samurai, Bujutsu, Kampfkunst, Philosophie und Asien.
+  </p>
+</div>
+
+<div class="recommendations-books">
+  <h2>Bücher</h2>
+  <article class="recommendations-container">
+    {% for book in books %}
+    <div>
+      {% if book.asin %}
+      <a
+        class="product"
+        href="http://www.amazon.de/gp/product/{{ book.asin }}?ie=UTF8&amp;tag=stefanimhoffde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=6742&amp;creativeASIN={{ book.asin }}"
+        rel="nofollow noopener noreferrer external"
+        target="_blank"
+      >
+        <img alt="{{ book.title }}" src="{{ book.cover }}" />
+      </a>
+      {% else %}
+        <img alt="{{ book.title }}" src="{{ book.cover }}" />
+      {% endif %}
+      <h3 class="recommendations-product-title">
+        {{ book.title }}
+      </h3>
+    </div>
+    {% endfor %}
+  </article>
+</div>
+
+<div class="recommendations-movies">
+  <h2>Filme</h2>
+  <article class="recommendations-container">
+    {% for movie in movies %}
+    <div>
+      {% if movie.asin %}
+      <a
+        class="product"
+        href="http://www.amazon.de/gp/product/{{ movie.asin }}?ie=UTF8&amp;tag=stefanimhoffde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=6742&amp;creativeASIN={{ movie.asin }}"
+        rel="nofollow noopener noreferrer external"
+        target="_blank"
+      >
+        <img alt="{{ movie.title }}" src="{{ movie.cover }}" />
+      </a>
+      {% elif movie.imdb %}
+      <a
+        class="product"
+        href="https://www.imdb.com/title/{{ movie.imdb }}"
+        rel="nofollow noopener noreferrer external"
+        target="_blank"
+      >
+        <img alt="{{ movie.title }}" src="{{ movie.cover }}" />
+      </a>
+      {% else %}
+        <img alt="{{ movie.title }}" src="{{ movie.cover }}" />
+      {% endif %}
+      <h3 class="recommendations-product-title">
+        {{ movie.title }}
+      </h3>
+    </div>
+    {% endfor %}
+  </article>
+</div>
+
+{% include "pagination.njk" %}

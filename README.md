@@ -1,10 +1,9 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ee50c303-884e-4f40-88a9-754fb6cabce4/deploy-status)](https://app.netlify.com/sites/kogakure-de/deploys)
 [![Live](https://img.shields.io/badge/live-kogakure.de-green.svg)](https://www.kogakure.de/)
-![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)
+![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)
 
 # kogakure.de
 
-This the source of my [martial arts website][kogakure] build with [Eleventy], [PostCSS], and [Gulp].
+This the source of my [Ninja and Ninjutsu book][kogakure] build with [Eleventy], [PostCSS], and [Gulp].
 
 ## Installation
 

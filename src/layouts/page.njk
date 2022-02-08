@@ -1,0 +1,24 @@
+---
+layout: narrow
+---
+
+{% set previousPost = collections.sortedBookPages | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.sortedBookPages | getNextCollectionItem(page) %}
+
+<article class="page-container">
+  <h1 class="page-title">{{ title | nbsp | safe }}</h1>
+  <div class="page">
+    {{ content | safe }}
+  </div>
+  {% if author or translator %}
+    <hr />
+    <footer>
+      <small>
+        {% if author %}<strong>Text:</strong> <em>{{ author }}</em>{% endif %}
+        {% if author and translator %} • {% endif %}
+        {% if translator %}<strong>Übersetzung:</strong> <em>{{ translator }}</em>{% endif %}
+      </small>
+    </footer>
+  {% endif %}
+  {% include "pagination.njk" %}
+</article>
