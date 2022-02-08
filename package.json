@@ -9,6 +9,7 @@
     "build:sw": "workbox generateSW workbox.config.js",
     "clean": "npx del dist",
     "debug": "DEBUG=* npx eleventy",
+    "deploy": "netlify deploy --prod",
     "prebuild": "npm run clean",
     "prestart": "npm run clean",
     "publish": "npm-run-all build deploy",
