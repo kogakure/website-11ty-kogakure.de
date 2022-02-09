@@ -11,7 +11,7 @@ tags:
 {% set previousPost = collections.sortedBookPages | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.sortedBookPages | getNextCollectionItem(page) %}
 
-<div class="glossary-intro">
+<div class="glossary-intro" {{ site.animationDelay }}>
   <h1 class="glossary-title">Glossar</h1>
   <p>
     Dieses Lexikon enthält <strong>{{ glossary.length }}</strong> Einträge aus dem Bereich des Ninjutsu, der
@@ -22,7 +22,7 @@ tags:
 
 <div class="glossary-list">
   {% for item in glossary | sortBySortKey %}
-  <dl class="glossary-list-item">
+  <dl class="glossary-list-item" {{ site.animation }}>
     {% if item.title %}
       <dt class="glossary-list-item-romanji">{{ item.title }}</dt>
     {% endif %}

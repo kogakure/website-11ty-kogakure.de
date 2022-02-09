@@ -11,7 +11,7 @@ tags:
 {% set previousPost = collections.sortedBookPages | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.sortedBookPages | getNextCollectionItem(page) %}
 
-<div class="colophon-intro">
+<div class="colophon-intro" {{ site.animationDelay }}>
   <h1 class="colphon-title">Kolophon</h1>
   <p>
     Dies ist 木隠. Seit 1999 kann man hier Artikel, Textsammlungen und
@@ -25,7 +25,7 @@ tags:
   </p>
 </div>
 
-<div class="colophon-meaning">
+<div class="colophon-meaning" {{ site.animation }}>
   <h2>Was bedeutet kogakure?</h2>
   <p>
     Der Name <em>kogakure</em> (木隠) ist japanisch und bedeutet wörtlich übersetzt in
@@ -39,7 +39,7 @@ tags:
   </p>
 </div>
 
-<div class="colophon-why">
+<div class="colophon-why" {{ site.animation }}>
   <h2>Warum gibt es dieses Buch?</h2>
   <p>
     Seit Anfang der 90er, ursprünglich wahrscheinlich durch die Teenage Mutant
@@ -64,7 +64,7 @@ tags:
   </p>
 </div>
 
-<div class="colophon-contact">
+<div class="colophon-contact" {{ site.animation }}>
   <h2>Kontakt</h2>
   <p>
     Man kann mich über meine <span>{% email "E-Mail-Adresse" %}</span>erreichen.
@@ -87,7 +87,7 @@ tags:
 <div class="colophon-faq">
   <h2>FAQ</h2>
   <ul class="colophone-faq-list">
-    <li class="colophon-faq-list-item">
+    <li class="colophon-faq-list-item" {{ site.animation }}>
       <h3>Wo kann ich trainieren?</h3>
       <p>
         Um ein Dōjō für Bujinkan Budō Taijutsu zu finden, solltet ihr am besten
@@ -108,7 +108,7 @@ tags:
         der Name des Buches.
       </p>
     </li>
-    <li class="colophon-faq-list-item">
+    <li class="colophon-faq-list-item" {{ site.animation }}>
       <h3>Was für Bücher gibt es?</h3>
       <p>
         Die Auswahl an Fachbüchern über Ninja und Ninjutsu ist sehr groß. Der größte Teil ist jedoch auf Japanisch oder Englisch. Am
@@ -116,7 +116,7 @@ tags:
         <a href="/empfehlungen/">Empfehlungen</a> schauen.
       </p>
     </li>
-    <li class="colophon-faq-list-item">
+    <li class="colophon-faq-list-item" {{ site.animation }}>
       <h3>Welche Bücher kannst du mir empfehlen?</h3>
       <p>
         Zuerst lege ich euch die Bücher von Dr. <em>Masaaki Hatsumi</em> ans
@@ -127,7 +127,7 @@ tags:
         wie Takamatsu zum Mönch des Tendai ernannt worden.
       </p>
     </li>
-    <li class="colophon-faq-list-item">
+    <li class="colophon-faq-list-item" {{ site.animation }}>
       <h3>Wo bekomme ich Bücher über Ninjutsu her?</h3>
       <p>
         Seit es Buchversender wie z. B.
@@ -143,7 +143,7 @@ tags:
         empfehlen kann.
       </p>
     </li>
-    <li class="colophon-faq-list-item">
+    <li class="colophon-faq-list-item" {{ site.animation }}>
       <h3>Ich möchte auf eine Seite verlinken. Was ist zu beachten?</h3>
       <p>
         Es ist generell untersagt die Verlinkung in einem Frame zu
@@ -163,7 +163,7 @@ tags:
         eingehalten werden).
       </p>
     </li>
-    <li class="colophon-faq-list-item">
+    <li class="colophon-faq-list-item" {{ site.animation }}>
       <h3>Sind Übersetzungen der Texte erlaubt?</h3>
       <p>
         Übersetzungen der Texte in andere Sprachen sind grundsätzlich erlaubt,
@@ -178,7 +178,7 @@ tags:
   </ul>
 </div>
 
-<div class="colophon-donation">
+<div class="colophon-donation" {{ site.animation }}>
   <h2>
     <span class="colophon-donation-heart">♥︎</span>
     Spenden
@@ -252,7 +252,7 @@ bc1quzvqw66khsnrmqh0ds8dprnrtcxfytfa3x2x7m</pre
   </ul>
 </div>
 
-<div class="colophon-tech">
+<div class="colophon-tech" {{ site.animation }}>
   <h2>Technische Informationen</h2>
   <p>
     Wer es bis hier hin durchgehalten hat, den interessieren wahrscheinlich auch

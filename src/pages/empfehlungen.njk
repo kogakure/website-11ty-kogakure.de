@@ -11,7 +11,7 @@ tags:
 {% set previousPost = collections.sortedBookPages | getPreviousCollectionItem(page) %}
 {% set nextPost = collections.sortedBookPages | getNextCollectionItem(page) %}
 
-<div class="recommendations-intro">
+<div class="recommendations-intro" {{ site.animationDelay }}>
   <h1 class="recommendations-title">Empfehlungen</h1>
   <p>
     Ich empfehle hier <strong>{{ books.length }}</strong> Bücher und
@@ -24,7 +24,7 @@ tags:
   <h2>Bücher</h2>
   <article class="recommendations-container">
     {% for book in books %}
-    <div>
+    <div {{ site.animation }}>
       {% if book.asin %}
       <a
         class="product"
@@ -49,7 +49,7 @@ tags:
   <h2>Filme</h2>
   <article class="recommendations-container">
     {% for movie in movies %}
-    <div>
+    <div {{ site.animation }}>
       {% if movie.asin %}
       <a
         class="product"

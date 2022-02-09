@@ -6,7 +6,7 @@ layout: narrow
 {% set nextPost = collections.sortedBookPages | getNextCollectionItem(page) %}
 
 <article class="page-container">
-  <h1 class="page-title">{{ title | nbsp | safe }}</h1>
+  <h1 class="page-title" >{{ title | nbsp | safe }}</h1>
   <div class="page">
     {{ content | safe }}
   </div>
