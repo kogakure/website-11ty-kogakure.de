@@ -52,5 +52,5 @@ I take the protection of your personal data very seriously and strictly adhere t
 [jimmy cheung]: https://github.com/xiaochunjimmy
 [wendy gao]: https://github.com/wendygaoyuan
 [stefan imhoff]: https://www.stefanimhoff.de
-[source code]: https://github.com/kogakure/website-11ty-stefanimhoff.de
+[source code]: https://github.com/kogakure/website-11ty-kogakure.de
 [creative commons license]: https://creativecommons.org/licenses/by-nc-sa/4.0/
