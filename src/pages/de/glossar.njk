@@ -1,0 +1,16 @@
+---
+layout: fullsize
+title: Glossar
+priority: 915
+css: glossary.css
+tags: ["book", "german"]
+translationKey: "glossaryPage"
+---
+
+{% set previousPost = collections.sortedGermanBookPages | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.sortedGermanBookPages | getNextCollectionItem(page) %}
+{% set glossaryData = translations.de.glossary | sortBySortKey %}
+
+{% include "glossary-intro.njk" %}
+{% include "glossary-list.njk" %}
+{% include "pagination.njk" %}

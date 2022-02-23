@@ -1,0 +1,347 @@
+[
+  {
+    "title": "Geschichte",
+    "items": [
+      {
+        "title": "Ursprünge des Ninjutsu",
+        "slug": "urspruenge-des-ninjutsu"
+      },
+      {
+        "title": "Entstehung der Ryū",
+        "slug": "entstehung-der-ryu"
+      },
+      {
+        "title": "Berühmte Ninja",
+        "slug": "beruehmte-ninja"
+      },
+      {
+        "title": "Ninja-Biografien",
+        "slug": "ninja-biographien"
+      },
+      {
+        "title": "Iga-Ryū",
+        "slug": "iga-ryu"
+      },
+      {
+        "title": "Kōga-Ryū",
+        "slug": "koga-ryu"
+      },
+      {
+        "title": "Iga no Ran",
+        "slug": "iga-no-ran"
+      },
+      {
+        "title": "Invasion von Iga",
+        "slug": "invasion-von-iga"
+      },
+      {
+        "title": "Niedergang",
+        "slug": "niedergang"
+      },
+      {
+        "title": "Moderne Geschichte",
+        "slug": "moderne-geschichte"
+      }
+    ]
+  },
+  {
+    "title": "Organisation & Ausbildung",
+    "items": [
+      {
+        "title": "Organisation der Ryū",
+        "slug": "organisation-der-ryu"
+      },
+      {
+        "title": "Ausbildung der Ninja",
+        "slug": "ausbildung-der-ninja"
+      },
+      {
+        "title": "Kunoichi",
+        "slug": "kunoichi"
+      },
+      {
+        "title": "Bansenshūkai",
+        "slug": "bansenshukai"
+      }
+    ]
+  },
+  {
+    "title": "Körperliches Training",
+    "items": [
+      {
+        "title": "Taijutsu",
+        "slug": "taijutsu"
+      },
+      {
+        "title": "Kampfregeln",
+        "slug": "kampfregeln"
+      },
+      {
+        "title": "Kampffaktoren",
+        "slug": "kampffaktoren"
+      },
+      {
+        "title": "Jūnantaisō",
+        "slug": "junan-taiso"
+      },
+      {
+        "title": "Trainingsfaktoren",
+        "slug": "trainingsfaktoren"
+      },
+      {
+        "title": "Körperwaffen",
+        "slug": "koerperwaffen"
+      },
+      {
+        "title": "Abhärtung",
+        "slug": "abhaertung"
+      },
+      {
+        "title": "Atemite",
+        "slug": "atemi-te"
+      },
+      {
+        "title": "Kamae",
+        "slug": "kamae"
+      },
+      {
+        "title": "Ukemi",
+        "slug": "ukemi"
+      },
+      {
+        "title": "Shinobi Iri",
+        "slug": "shinobi-iri"
+      }
+    ]
+  },
+  {
+    "title": "Waffen & Werkzeuge",
+    "items": [
+      {
+        "title": "Waffen",
+        "slug": "waffen"
+      },
+      {
+        "title": "Wasserwerkzeuge",
+        "slug": "wasserwerkzeuge"
+      },
+      {
+        "title": "Einbruchswerkzeuge",
+        "slug": "einbruchswerkzeuge"
+      },
+      {
+        "title": "Kletterwerkzeuge",
+        "slug": "kletterwerkzeuge"
+      },
+      {
+        "title": "Feuerwerkzeuge",
+        "slug": "feuerwerkzeuge"
+      },
+      {
+        "title": "Ninjakleidung",
+        "slug": "ninjakleidung"
+      },
+      {
+        "title": "Sonstige Ausrüstung",
+        "slug": "sonstige-ausruestung"
+      },
+      {
+        "title": "Inrō – Reiseapotheke",
+        "slug": "inro"
+      }
+    ]
+  },
+  {
+    "title": "Geistige Kräfte",
+    "items": [
+      {
+        "title": "Mikkyō",
+        "slug": "mikkyo"
+      },
+      {
+        "title": "Sanmitsu",
+        "slug": "sanmitsu"
+      },
+      {
+        "title": "Kuji-in",
+        "slug": "kuji-in"
+      },
+      {
+        "title": "Godai",
+        "slug": "godai"
+      },
+      {
+        "title": "Gogyō",
+        "slug": "gogyo"
+      },
+      {
+        "title": "Tenchijin",
+        "slug": "tenchijin"
+      },
+      {
+        "title": "Bewusstsein und Geist",
+        "slug": "bewusstsein-und-geist"
+      },
+      {
+        "title": "Der Siebte Sinn",
+        "slug": "der-siebte-sinn"
+      },
+      {
+        "title": "Erleuchtung",
+        "slug": "erleuchtung"
+      },
+      {
+        "title": "Daoismus",
+        "slug": "daoismus"
+      }
+    ]
+  },
+  {
+    "title": "Strategie & Taktik",
+    "items": [
+      {
+        "title": "Goton pō",
+        "slug": "gotonpo"
+      },
+      {
+        "title": "Onshin jutsu",
+        "slug": "onshinjutsu"
+      },
+      {
+        "title": "Shichi hō de",
+        "slug": "shichi-ho-de"
+      },
+      {
+        "title": "Chōhō",
+        "slug": "choho"
+      },
+      {
+        "title": "Heihō",
+        "slug": "heiho"
+      },
+      {
+        "title": "Bōryaku",
+        "slug": "bo-ryaku"
+      },
+      {
+        "title": "Tōiri",
+        "slug": "toiri"
+      },
+      {
+        "title": "Chi kai ri",
+        "slug": "chikairi"
+      }
+    ]
+  },
+  {
+    "title": "Das Erbe der Ninja",
+    "items": [
+      {
+        "title": "Takamatsu Toshitsugu",
+        "slug": "takamatsu-toshitsugu"
+      },
+      {
+        "title": "Hatsumi Masaaki",
+        "slug": "hatsumi-masaaki"
+      },
+      {
+        "title": "Bujinkan",
+        "slug": "bujinkan"
+      },
+      {
+        "title": "Richtlinien des Bujinkan",
+        "slug": "richtlinien-des-bujinkan"
+      },
+      {
+        "title": "Togakure-Ryū",
+        "slug": "togakure-ryu"
+      },
+      {
+        "title": "Gyokko-Ryū",
+        "slug": "gyokko-ryu"
+      },
+      {
+        "title": "Kukishinden-Ryū",
+        "slug": "kukishinden-ryu"
+      },
+      {
+        "title": "Shinden-fudo-Ryū",
+        "slug": "shinden-fudo-ryu"
+      },
+      {
+        "title": "Gyokushin-Ryū",
+        "slug": "gyokushin-ryu"
+      },
+      {
+        "title": "Koto-Ryū",
+        "slug": "koto-ryu"
+      },
+      {
+        "title": "Takagi-yoshin-Ryū",
+        "slug": "takagi-yoshin-ryu"
+      },
+      {
+        "title": "Gikan-Ryū",
+        "slug": "gikan-ryu"
+      },
+      {
+        "title": "Kumogakure-Ryū",
+        "slug": "kumogakure-ryu"
+      }
+    ]
+  },
+  {
+    "title": "Regeln & Philosophie",
+    "items": [
+      {
+        "title": "Essenz des Ninjutsu",
+        "slug": "essenz-des-ninjutsu"
+      },
+      {
+        "title": "Die Regeln der Ninja",
+        "slug": "die-regeln-der-ninja"
+      },
+      {
+        "title": "Die 5 Gebote der Ninja",
+        "slug": "die-5-gebote-der-ninja"
+      },
+      {
+        "title": "18 Trainingsebenen",
+        "slug": "18-trainingsebenen"
+      },
+      {
+        "title": "Ninpō Sanjūrokkei",
+        "slug": "ninpo-sanjurokkei"
+      },
+      {
+        "title": "Ninja no Hachimon",
+        "slug": "ninja-no-hachimon"
+      }
+    ]
+  },
+  {
+    "title": "Anhänge",
+    "items": [
+      {
+        "title": "Chronologie",
+        "slug": "chronologie"
+      },
+      {
+        "title": "Downloads",
+        "slug": "downloads"
+      },
+      {
+        "title": "Empfehlungen",
+        "slug": "empfehlungen"
+      },
+      {
+        "title": "Glossar",
+        "slug": "glossar"
+      },
+      {
+        "title": "Kolophon",
+        "slug": "kolophon"
+      }
+    ]
+  }
+]

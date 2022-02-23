@@ -49,7 +49,7 @@
   letter-spacing: -0.02em;
   line-height: var(--line-height-1);
   padding-block-end: var(--space-2);
-  padding-right: var(--space-10);
+  padding-inline-end: var(--space-10);
 }
 
 @media (width >= 450px) {

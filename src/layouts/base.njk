@@ -1,12 +1,15 @@
+{% if locale === "de" %}{% set localizedDescription = site.description['de'] %}{% endif %}
+{% if locale === "en" %}{% set localizedDescription = site.description['en']  %}{% endif %}
+
 <!DOCTYPE html>
-<html lang="de" class="no-js">
+<html lang="{{ locale }}" dir="{{ dir }}" class="no-js">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>
-    {%- if page.url === "/" -%}
-      {{ site.title }} · {{ site.description }}
+    {%- if isHome -%}
+    {{ site.title }} · {{ localizedDescription }}
     {%- else -%}
       {{ title }} · {{ site.title }}
     {%- endif -%}

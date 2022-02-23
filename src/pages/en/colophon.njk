@@ -1,0 +1,20 @@
+---
+layout: fullsize
+title: Colophon
+priority: 920
+css: colophon.css
+tags: ["book", "english"]
+translationKey: "colophonPage"
+---
+
+{% set previousPost = collections.sortedEnglishBookPages | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.sortedEnglishBookPages | getNextCollectionItem(page) %}
+
+{% include "colophon-intro.njk" %}
+{% include "colophon-meaning.njk" %}
+{% include "colophon-why.njk" %}
+{% include "colophon-contact.njk" %}
+{% include "colophon-faq.njk" %}
+{% include "colophon-donation.njk" %}
+{% include "colophon-tech.njk" %}
+{% include "pagination.njk" %}

@@ -1,0 +1,44 @@
+{% if locale === "en" %}{% set affiliateUrl = "http://www.amazon.de/gp/product/{{ movie.asin }}?ie=UTF8&amp;tag=stefanimhoffde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=6742&amp;creativeASIN={{ movie.asin }}" %}{% endif %}
+{% if locale === "en" %}{% set affiliateUrl = "https://www.amazon.com/gp/product/{{ movie.asin }}/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN={{ movie.asin }}&amp;linkCode=as2&amp;tag=kogakure-20" %}{% endif %}
+
+<div class="recommendations-movies">
+  <h2>{{ i18n[locale].recommendations.movies.headline }}</h2>
+  <article class="recommendations-container">
+    {% for movie in movieCollection %}
+    <div {{ site.animation }}>
+      {% if movie.asin %}
+      <a
+        class="product"
+        href="{{ affiliateUrl }}"
+        rel="nofollow noopener noreferrer external"
+        target="_blank"
+      >
+        {% if movie.cover %}
+          <img alt="{{ movie.title }}" src="{{ movie.cover }}" />
+        {% else %}
+          {% if locale === "en" %}
+            {% product movie.asin, movie.title, "en" %}
+          {% else %}
+            {% product movie.asin, movie.title %}
+          {% endif %}
+        {% endif %}
+      </a>
+      {% elif movie.imdb %}
+      <a
+        class="product"
+        href="https://www.imdb.com/title/{{ movie.imdb }}"
+        rel="nofollow noopener noreferrer external"
+        target="_blank"
+      >
+        <img alt="{{ movie.title }}" src="{{ movie.cover }}" />
+      </a>
+      {% else %}
+        <img alt="{{ movie.title }}" src="{{ movie.cover }}" />
+      {% endif %}
+      <h3 class="recommendations-product-title">
+        {{ movie.title }}
+      </h3>
+    </div>
+    {% endfor %}
+  </article>
+</div>

@@ -1,0 +1,60 @@
+<div class="colophon-donation" {{ site.animation }}>
+  <h2>
+    <span class="colophon-donation-heart">♥︎</span>
+    {{ i18n[locale].colophon.donation.headline }}
+  </h2>
+  {{ i18n[locale].colophon.donation.text | markdown | safe }}
+  <ul class="colophon-donation-list">
+    <li class="colophon-donation-list-item">
+      <svg
+        class="colophon-donation-icon"
+        title="Bitcoin"
+        aria-hidden="true"
+        viewBox="0 0 24 24"
+        width="1em"
+        height="1em"
+      >
+        <use xlink:href="#bitcoin"></use>
+      </svg>
+      <pre class="colophon-dontation-crypto-hash">{{ site.bitcoin }}</pre
+      >
+    </li>
+    <li class="colophon-donation-list-item">
+      <svg
+        class="colophon-donation-icon"
+        title="Ethereum"
+        aria-hidden="true"
+        viewBox="0 0 24 24"
+        width="1em"
+        height="1em"
+      >
+        <use xlink:href="#ethereum"></use>
+      </svg>
+      <pre class="colophon-dontation-crypto-hash">{{ site.ethereum }}</pre
+      >
+    </li>
+    <li class="colophon-donation-list-item">
+      <a
+        href="https://www.paypal.me/kogakure/"
+        rel="nofollow noopener noreferrer external"
+        target="_blank"
+      >
+        <button
+          class="colophon-dontation-button"
+          type="button"
+        >
+          <svg
+            class="colophon-donation-icon"
+            aria-hidden="true"
+            viewBox="0 0 24 24"
+            width="1em"
+            height="1em"
+          >
+            <use xlink:href="#paypal"></use>
+          </svg>
+          {{ i18n[locale].colophon.donation.paypal }}
+        </button>
+      </a>
+    </li>
+  </ul>
+</div>

@@ -38,10 +38,10 @@ img[src$='.svg'],
     box-shadow: var(--shadow-subtle-shade);
     content: '';
     height: 100%;
-    left: 0;
+    inset-block-start: 0;
+    inset-inline-start: 0;
     opacity: 0;
     position: absolute;
-    top: 0;
     transition-duration: var(--transition-duration-5);
     transition-property: opacity;
     transition-timing-function: ease-in-out;

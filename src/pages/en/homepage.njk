@@ -1,0 +1,14 @@
+---
+layout: fullsize
+title: 木隠
+permalink: /{{ locale }}/
+css: homepage.css
+isHome: true
+translationKey: "homepagePage"
+---
+
+{% set prefaceCollection = translations.en.preface %}
+{% set tocCollection = translations.en.toc %}
+
+{% include "homepage-intro.njk" %}
+{% include "homepage-toc.njk" %}

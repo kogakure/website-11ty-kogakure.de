@@ -1,0 +1,15 @@
+---
+layout: fullsize
+title: Downloads
+priority: 905
+css: downloads.css
+tags: ["book", "english"]
+translationKey: "downloadsPage"
+---
+
+{% set previousPost = collections.sortedEnglishBookPages | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.sortedEnglishBookPages | getNextCollectionItem(page) %}
+
+{% include "downloads-intro.njk" %}
+{% include "downloads-container.njk" %}
+{% include "pagination.njk" %}

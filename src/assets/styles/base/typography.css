@@ -30,14 +30,18 @@ body {
     background-image: url('/assets/images/svg/bamboo.svg');
     background-repeat: no-repeat;
     background-size: 90vw auto;
-    bottom: 0;
     content: '';
-    left: 0;
+    inset-block-end: 0;
+    inset-block-start: 0;
+    inset-inline-end: 0;
+    inset-inline-start: 0;
     position: absolute;
-    right: 0;
-    top: 0;
     z-index: -1;
   }
+}
+
+[dir='rtl'] body::before {
+  transform: scaleX(-1);
 }
 
 @media (--tablet) {
@@ -79,7 +83,7 @@ h2,
 .headline {
   font-size: var(--font-size-5);
   margin-block-end: var(--space-10);
-  margin-block-start: var(--space-16);
+  margin-block-start: var(--space-13);
 }
 
 h3,
@@ -89,15 +93,16 @@ h6,
 .subheadline {
   font-size: var(--font-size-4);
   margin-block-end: var(--space-8);
-  margin-block-start: var(--space-14);
+  margin-block-start: var(--space-13);
 }
 
 h2:first-of-type,
-h3:first-of-type,
-h4:first-of-type,
-h5:first-of-type,
-h6:first-of-type {
+h3:first-of-type {
   margin-block-start: 0;
+}
+
+p:last-of-type + h3 {
+  margin-block-start: var(--space-13);
 }
 
 .dark h1,
@@ -115,11 +120,11 @@ h6:first-of-type {
 /** GitHub Style Anchor */
 .anchor {
   float: left;
+  inset-block-start: -0.01em;
   line-height: 1;
   margin-inline-start: -20px;
   padding-inline-end: 5px;
   position: relative;
-  top: -0.01em;
   visibility: hidden;
 
   h2:hover &,
@@ -310,6 +315,14 @@ q[lang|='de'] {
   quotes: '»' '«' '›' '‹';
 }
 
+[lang|='ja'] blockquote,
+blockquote[lang|='ja'],
+[lang|='ja'] q,
+q[lang|='ja'] {
+  font-style: normal;
+  quotes: '「' '」,' '『' '』';
+}
+
 blockquote {
   margin-block-end: var(--space-12);
   margin-block-start: var(--space-12);
@@ -322,15 +335,20 @@ blockquote {
     margin-inline-start: var(--space-10);
   }
 
+  ul,
+  ol {
+    padding-block-start: var(--space-6);
+  }
+
   &::before {
     color: var(--color-accent-primary);
     content: '“';
     font-family: Trebuchet MS, Georgia, serif;
     font-size: var(--font-size-6);
     height: 0.6em;
-    left: -0.55em;
+    inset-block-start: -0.55em;
+    inset-inline-start: -0.55em;
     position: absolute;
-    top: -0.55em;
   }
 
   p,
@@ -360,7 +378,7 @@ blockquote {
         &::before {
           content: '—';
           font-weight: var(--font-weight-light);
-          left: -0.8em;
+          inset-inline-start: -0.8em;
           position: absolute;
         }
 
@@ -379,12 +397,12 @@ q {
 
   &::before {
     font-style: normal;
-    margin-right: -0.05em;
+    margin-inline-end: -0.05em;
   }
 
   &::after {
     font-style: normal;
-    margin-left: 0.1em;
+    margin-inline-start: 0.1em;
   }
 }
 
@@ -410,7 +428,7 @@ q {
   }
 
   & p:nth-of-type(1):first-letter {
-    margin-left: -0.4em;
+    margin-inline-start: -0.4em;
   }
 
   & p:nth-last-of-type(1)::after {
@@ -421,7 +439,7 @@ q {
   footer {
     font-size: var(--font-size-2);
     font-weight: normal;
-    margin-top: var(--space-6);
+    margin-block-start: var(--space-6);
   }
 
   b {

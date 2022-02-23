@@ -1,0 +1,46 @@
+{% if locale === "en" %}{% set affiliateUrl = "http://www.amazon.de/gp/product/{{ book.asin }}?ie=UTF8&amp;tag=stefanimhoffde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=6742&amp;creativeASIN={{ book.asin }}" %}{% endif %}
+{% if locale === "en" %}{% set affiliateUrl = "https://www.amazon.com/gp/product/{{ book.asin }}/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN={{ book.asin }}&amp;linkCode=as2&amp;tag=kogakure-20" %}{% endif %}
+
+<div class="recommendations-books">
+  <h2>{{ i18n[locale].recommendations.books.headline }}</h2>
+  <article class="recommendations-container">
+    {% for book in bookCollection %}
+    <div {{ site.animation }}>
+      {% if book.asin %}
+      <a
+        class="product"
+        href="{{ affiliateUrl }}"
+        rel="nofollow noopener noreferrer external"
+        target="_blank"
+      >
+        {% if book.cover %}
+          <img alt="{{ book.title }}" src="{{ book.cover }}" />
+        {% else %}
+          {% if locale === "en" %}
+            {% product book.asin, book.title, "en" %}
+          {% else %}
+            {% product book.asin, book.title %}
+          {% endif %}
+        {% endif %}
+      </a>
+      {% else %}
+        {% if book.link %}
+        <a
+        class="product"
+        href="{{ book.link }}"
+        rel="nofollow noopener noreferrer external"
+        target="_blank"
+      >
+        <img alt="{{ book.title }}" src="{{ book.cover }}" />
+      </a>
+        {% else %}
+          <img alt="{{ book.title }}" src="{{ book.cover }}" />
+        {% endif %}
+      {% endif %}
+      <h3 class="recommendations-product-title">
+        {{ book.title }}
+      </h3>
+    </div>
+    {% endfor %}
+  </article>
+</div>

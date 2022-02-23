@@ -1,0 +1,19 @@
+---
+layout: fullsize
+title: Recommendations
+priority: 910
+css: recommendations.css
+tags: ["book", "english"]
+translationKey: "recommendationsPage"
+---
+
+{% set previousPost = collections.sortedEnglishBookPages | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.sortedEnglishBookPages | getNextCollectionItem(page) %}
+
+{% set bookCollection = translations.en.books %}
+{% set movieCollection = translations.en.movies %}
+
+{% include "recommendations-intro.njk" %}
+{% include "recommendations-books.njk" %}
+{% include "recommendations-movies.njk" %}
+{% include "pagination.njk" %}

@@ -18,7 +18,11 @@
   {%- if og -%}
     {{ site.url }}/assets/images/branding/og/{{ og }}
   {%- else -%}
-    {{ site.url }}/assets/images/branding/og/banner.png
+    {% if locale === "en" %}
+      {{ site.url }}/assets/images/branding/og/banner-en.png
+    {% else %}
+      {{ site.url }}/assets/images/branding/og/banner-de.png
+    {% endif %}
   {%- endif -%}
 {%- endset -%}
 

@@ -6,6 +6,7 @@
 /* Layout */
 @import 'layout/page-footer';
 @import 'layout/legal';
+@import 'layout/language-switcher';
 @import 'layout/up-link';
 
 /* Components */

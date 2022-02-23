@@ -2,8 +2,11 @@
 layout: narrow
 ---
 
-{% set previousPost = collections.sortedBookPages | getPreviousCollectionItem(page) %}
-{% set nextPost = collections.sortedBookPages | getNextCollectionItem(page) %}
+{% if locale === "de" %}{% set pageCollection = collections.sortedGermanBookPages %}{% endif %}
+{% if locale === "en" %}{% set pageCollection = collections.sortedEnglishBookPages %}{% endif %}
+
+{% set previousPost = pageCollection | getPreviousCollectionItem(page) %}
+{% set nextPost = pageCollection | getNextCollectionItem(page) %}
 
 <article class="page-container">
   <h1 class="page-title" >{{ title | nbsp | safe }}</h1>
@@ -14,9 +17,9 @@ layout: narrow
     <hr />
     <footer>
       <small>
-        {% if author %}<strong>Text:</strong> <em>{{ author }}</em>{% endif %}
+        {% if author %}<strong>{{ i18n[locale].creditAuthor }}</strong> <em>{{ author }}</em>{% endif %}
         {% if author and translator %} • {% endif %}
-        {% if translator %}<strong>Übersetzung:</strong> <em>{{ translator }}</em>{% endif %}
+        {% if translator %}<strong>{{ i18n[locale].creditTranslator }}</strong> <em>{{ translator }}</em>{% endif %}
       </small>
     </footer>
   {% endif %}

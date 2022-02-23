@@ -77,7 +77,7 @@
   content: counters(section, '.') ' ';
   counter-increment: section;
   font-weight: lighter;
-  left: -2.5rem;
+  inset-inline-start: -2.5rem;
   position: absolute;
   text-align: end;
   width: 2rem;
@@ -89,6 +89,6 @@
 
 .homepage-toc-chapter {
   break-inside: avoid;
-  margin-bottom: var(--space-10);
+  margin-block-end: var(--space-10);
   position: relative;
 }

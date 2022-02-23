@@ -1,16 +1,16 @@
 /** Pagination */
 .pagination {
   border-radius: 50%;
+  inset-block-start: calc(50% - 20px);
   position: fixed;
-  top: calc(50% - 20px);
 }
 
 .pagination-start {
-  left: 1rem;
+  inset-inline-start: 1rem;
 }
 
 .pagination-end {
-  right: 1rem;
+  inset-inline-end: 1rem;
 }
 
 .pagination-container {
