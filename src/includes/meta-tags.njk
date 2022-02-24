@@ -1,16 +1,19 @@
+{% if locale === "de" %}{% set localizedDescription = site.description['de'] %}{% endif %}
+{% if locale === "en" %}{% set localizedDescription = site.description['en']  %}{% endif %}
+
 {%- set ogTitle -%}
-  {%- if page.url === "/" -%}
-    {{ site.author }} · {{ site.description }}
+  {%- if page.url === "/" or page.url === "/en/" -%}
+    {{ site.title }} · {{ localizedDescription }} 
   {%- else -%}
-    {{ title }} · {{ site.author }}
+    {{ title }} · {{ site.title }}
   {%- endif -%}
 {%- endset -%}
 
 {%- set ogDescription -%}
-  {%- if page.url === "/" -%}
-    {{ site.description }}
+  {%- if page.url === "/" or page.url === "/en/" -%}
+    {{ localizedDescription }}
   {%- else -%}
-    {{ description or title }}
+    {{ excerpt or title }}
   {%- endif -%}
 {%- endset -%}
 
