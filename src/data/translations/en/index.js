@@ -58,13 +58,13 @@ module.exports = {
         'The best way to find a Dōjō for Bujinkan Budō Taijutsu is to use a search engine to search for **Bujinkan** in connection with a city near you. But certainly there will not be as good coverage with Dōjō as in Judo or Karate. There is a very extensive [dojo list](http://www.bujinkan-deutschland.de/dojoliste-bujinkan.html) on the Bujinkai site.\n\nI *don’t* have my own Dōjō and offer *no* training. Kogakure is not a martial art style, it is the name of the book.',
       subheadline2: 'What Books Are There?',
       text2:
-        'The selection of specialist books on Ninja and Ninjutsu is very large. However, most of it is in Japanese or English. It’s best to just take a look at my [recommendations](/recommendations/).',
+        'The selection of specialist books on Ninja and Ninjutsu is very large. However, most of it is in Japanese or English. It’s best to just take a look at my [recommendations](/en/recommendations/).',
       subheadline3: 'Which Books Can You Recommend Me?',
       text3:
         'First I recommend the books of Dr. *Masaaki Hatsumi*. *Andrew Adams* book <cite>Ninja</cite> is good to get an overview. *Stephen K. Hayes* has a lot of philosophical aspects in his books (e.g. Tendai, Shugendō, Mikkyō), since this interests him personally, he has even been appointed a monk of Tendai, just like Takamatsu.',
       subheadline4: 'Where Can I Get Books on Ninjutsu?',
       text4:
-        'Ever since book retailers such as [Amazon](https://www.amazon.com/?&_encoding=UTF8&tag=kogakure-20&linkCode=ur2&linkId=98ada809b8f08559fbbd5bd54df01f2e&camp=1789&creative=9325) exist, it should no longer be a problem to get books from abroad. On the [recommendations](/recommendations/) page I have compiled a list of books and films that I can recommend.',
+        'Ever since book retailers such as [Amazon](https://www.amazon.com/?&_encoding=UTF8&tag=kogakure-20&linkCode=ur2&linkId=98ada809b8f08559fbbd5bd54df01f2e&camp=1789&creative=9325) exist, it should no longer be a problem to get books from abroad. On the [recommendations](/en/recommendations/) page I have compiled a list of books and films that I can recommend.',
       subheadline5: 'I Want to Link to a Page. What Is to Be Considered?',
       text5:
         'It is generally prohibited to implement the link in a frame in which the website is no longer recognizable as the author. You are welcome to link to any page in this domain.\n\nImages, photos and other media may *not be directly linked*, but may be downloaded and placed on your own servers (as long as the rules of the [Creative Commons License](http://creativecommons.org/licenses/by-nc/3.0/deed.de) are complied with).',
@@ -75,7 +75,7 @@ module.exports = {
     donation: {
       headline: 'Donations',
       text:
-        'This book is free, ad-free and has cost me many hundreds of hours of work over time.\n\nIf you enjoyed it, I welcome praise and recognition. You can support me by buying something from my [recommendations](/recommendations/) or by making a small donation.',
+        'This book is free, ad-free and has cost me many hundreds of hours of work over time.\n\nIf you enjoyed it, I welcome praise and recognition. You can support me by buying something from my [recommendations](/en/recommendations/) or by making a small donation.',
       paypal: 'Donate With PayPal',
     },
     tech: {
