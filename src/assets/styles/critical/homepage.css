@@ -80,6 +80,9 @@
   inset-inline-start: -2.5rem;
   position: absolute;
   text-align: end;
+  /** Null transform hack to fix Safari bug 
+   *  https://stackoverflow.com/a/60849697/331361 **/
+  transform: translate3d(0, 0, 0);
   width: 2rem;
 }
 
