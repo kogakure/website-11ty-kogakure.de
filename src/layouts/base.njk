@@ -9,9 +9,9 @@
 
     <title>
     {%- if isHome -%}
-    {{ site.title }} · {{ localizedDescription }}
+    {{ site.title | replace("&shy;", "") }} · {{ localizedDescription }}
     {%- else -%}
-      {{ title }} · {{ site.title }} · {{ localizedDescription }}
+      {{ title | replace("&shy;", "") }} · {{ site.title }} · {{ localizedDescription }}
     {%- endif -%}
     </title>
 

@@ -1,5 +1,5 @@
 ---
-title: "Ninjakleidung"
+title: "Ninja&shy;kleidung"
 priority: 425
 date: 2006-04-01T17:50:00+02:00
 author: "Stefan Imhoff"

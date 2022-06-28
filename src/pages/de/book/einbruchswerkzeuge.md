@@ -1,5 +1,5 @@
 ---
-title: "Einbruchswerkzeuge"
+title: "Einbruchs&shy;werkzeuge"
 priority: 410
 date: 2006-04-01T17:46:00+02:00
 author: "Stefan Imhoff"

@@ -51,7 +51,7 @@ module.exports = function (config) {
   Object.keys(filters).forEach((filterName) => {
     config.addFilter(filterName, filters[filterName]);
   });
-  config.addFilter('nbsp', filterNbsp(2, 15));
+  config.addFilter('nbsp', filterNbsp(2, 10));
 
   // Watch for changes and reload
   config.addWatchTarget('src/assets');

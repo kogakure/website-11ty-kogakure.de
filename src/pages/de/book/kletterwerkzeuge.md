@@ -1,5 +1,5 @@
 ---
-title: "Kletterwerkzeuge"
+title: "Kletter&shy;werkzeuge"
 priority: 415
 date: 2006-04-01T17:47:00+02:00
 author: "Stefan Imhoff"
