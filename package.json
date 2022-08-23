@@ -30,7 +30,7 @@
   "license": "ISC",
   "homepage": "https://www.kogakure.de",
   "devDependencies": {
-    "@11ty/eleventy": "1.0.0",
+    "@11ty/eleventy": "1.0.1",
     "autoprefixer": "^10.2.5",
     "babelify": "^10.0.0",
     "browserify": "^17.0.0",
@@ -79,6 +79,5 @@
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
     "workbox-cli": "^6.1.5"
-  },
-  "dependencies": {}
+  }
 }
