@@ -1,24 +1,26 @@
 <div class="glossary-list">
-  {% for item in glossaryData %}
-  <dl class="glossary-list-item" {{ site.animation }}>
-    {% if item.title %}
-      <dt class="glossary-list-item-romanji">{{ item.title }}</dt>
-    {% endif %}
-    {% if item.japanese or item.chinese or item.sanskrit %}
-    <dt class="glossary-list-item-japanese">{{ item.japanese }}{{ item.chinese}}{{ item.sanskrit }}</dt>
-    {% endif %}
-    {% if item.translation %}
-    <dd class="glossary-list-item-translation">
-    <q>{{ item.translation }}</q>
-    </dd>
-    {% endif %}
-    {% if item.description %}
-    <dd class="glossary-list-item-description">
-      {% if item.sanskrit %}<em>{{ i18n[locale].glossary.sanskrit }}</em>. {% endif %}
-      {% if item.chinese %}<em>{{ i18n[locale].glossary.chinese }}</em>. {% endif %}
-      {{ item.description | safe }}
-    </dd>
-    {% endif %}
-  </dl>
-  {% endfor %}
+	{% for item in glossaryData %}
+		<dl class="glossary-list-item" {{ site.animation }}>
+			{% if item.title %}
+				<dt class="glossary-list-item-romanji">{{ item.title }}</dt>
+			{% endif %}
+			{% if item.japanese or item.chinese or item.sanskrit %}
+				<dt class="glossary-list-item-japanese">{{ item.japanese }}{{ item.chinese}}{{ item.sanskrit }}</dt>
+			{% endif %}
+			{% if item.translation %}
+				<dd class="glossary-list-item-translation">
+					<q>{{ item.translation }}</q>
+				</dd>
+			{% endif %}
+			{% if item.description %}
+				<dd class="glossary-list-item-description">
+					{% if item.sanskrit %}
+						<em>{{ i18n[locale].glossary.sanskrit }}</em>. {% endif %}
+					{% if item.chinese %}
+						<em>{{ i18n[locale].glossary.chinese }}</em>. {% endif %}
+					{{ item.description | safe }}
+				</dd>
+			{% endif %}
+		</dl>
+	{% endfor %}
 </div>

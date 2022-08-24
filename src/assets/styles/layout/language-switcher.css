@@ -1,39 +1,39 @@
 /** Language Switcher */
 .language-switcher {
-  align-items: center;
-  display: flex;
-  position: relative;
-  text-transform: uppercase;
+	align-items: center;
+	display: flex;
+	position: relative;
+	text-transform: uppercase;
 }
 
 .language-switcher-list {
-  align-items: center;
-  display: flex;
-  font-size: 12px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	align-items: center;
+	display: flex;
+	font-size: 12px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .language-switcher-list-item {
-  margin-block-end: 0;
-  margin-inline-end: 0.25em;
+	margin-block-end: 0;
+	margin-inline-end: 0.25em;
 }
 
 .language-switcher-link {
-  color: var(--color-fg);
-  font-weight: var(--font-weight-normal);
-  text-decoration: none;
+	color: var(--color-fg);
+	font-weight: var(--font-weight-normal);
+	text-decoration: none;
 
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-    text-decoration-color: var(--color-accent-primary);
-    text-decoration-thickness: 0.15em;
-    text-underline-offset: 0.1em;
-  }
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+		text-decoration-color: var(--color-accent-primary);
+		text-decoration-thickness: 0.15em;
+		text-underline-offset: 0.1em;
+	}
 
-  &.is-active {
-    font-weight: var(--font-weight-semi-bold);
-  }
+	&.is-active {
+		font-weight: var(--font-weight-semi-bold);
+	}
 }

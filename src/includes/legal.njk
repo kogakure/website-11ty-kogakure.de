@@ -1,15 +1,15 @@
 <div class="legal">
-  <span class="legal-copyright">© </span>
-  <strong class="legal-author">
-    <a class="legal-author-link" href="/imprint/">{{ site.author }}</a>
-  </strong>
-  <span class="legal-bullet"> / </span>
-  <span class="legal-year">
-    <time datetime="{{ site.buildTime | dateToISO }}">
+	<span class="legal-copyright">© </span>
+	<strong class="legal-author">
+		<a class="legal-author-link" href="/imprint/">{{ site.author }}</a>
+	</strong>
+	<span class="legal-bullet"> / </span>
+	<span class="legal-year">
+		<time datetime="{{ site.buildTime | dateToISO }}">
       1999–{{ site.buildTime | dateToFormat('YYYY') }}
-    </time>
-  </span>
-  <span class="legal-bullet"> / </span>
-  {% include "language-switcher.njk" %}
-  <span class="hidden-ninja"> 🥷 </span>
+		</time>
+	</span>
+	<span class="legal-bullet"> / </span>
+	{% include "language-switcher.njk" %}
+	<span class="hidden-ninja"> 🥷 </span>
 </div>

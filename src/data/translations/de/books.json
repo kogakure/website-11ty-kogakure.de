@@ -1,245 +1,245 @@
 [
-  {
-    "title": "Gyokko Ryû Taijutsu no Kata: Bujinkan Budô Denshô",
-    "cover": "/assets/images/recommendations/books/gyokko-ryu-taijutsu-no-kata-de.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70152"
-  },
-  {
-    "title": "Kukishinden Ryû Taijutsu no Kata: Bujinkan Budô Densho",
-    "cover": "/assets/images/recommendations/books/kukishinden-ryu-taijutsu-no-kata-de.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70153"
-  },
-  {
-    "title": "Togakure Ryû Taijutsu no Kata: Bujinkan Budô Densho",
-    "cover": "/assets/images/recommendations/books/togakure-ryu-taijutsu-no-kata-de.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70155"
-  },
-  {
-    "title": "Kotô Ryû Taijutsu no Kata: Bujinkan Budô Densho",
-    "cover": "/assets/images/recommendations/books/koto-ryu-taijutsu-no-kata-de.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70162"
-  },
-  {
-    "title": "Shinden Fudô Ryû Daken taijutsu no Kata: Bujinkan Budô Densho",
-    "cover": "/assets/images/recommendations/books/shinden-fudo-ryu-dakentaijutsu-de.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70166"
-  },
-  {
-    "title": "Shinden-Fudo Ryû Jûtaijutsu no kata: Bujinkan Budô densho",
-    "cover": "/assets/images/recommendations/books/shinden-fudo-ryu-jutaijutsu-no-kata-de.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70170"
-  },
-  {
-    "title": "Takagi-Yôshin-Ryû Taijutsu no Kata: Bujinkan Budô Denshô",
-    "cover": "/assets/images/recommendations/books/takagi-yoshin-ryu-taijutsu-no-kata-de.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70173"
-  },
-  {
-    "title": "Ten Ryaku no Maki: Strategien des Himmels",
-    "cover": "/assets/images/recommendations/books/ten-ryaku-no-maki-de.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70178"
-  },
-  {
-    "title": "Chi Ryaku no Maki: Strategien der Erde",
-    "cover": "/assets/images/recommendations/books/chi-ryaku-no-maki-de.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70179"
-  },
-  {
-    "title": "Jin Ryaku no Maki: Strategien des Menschen",
-    "cover": "/assets/images/recommendations/books/jin-ryaku-no-maki-de.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70184"
-  },
-  {
-    "title": "The Way of the Ninja: Secret Techniques",
-    "asin": "4770028059"
-  },
-  {
-    "title": "Art of Japanese Sword Fighting: Secrets of the Samurai",
-    "asin": "4770021984"
-  },
-  {
-    "title": "Advanced Stick Fighting",
-    "asin": "4770029969"
-  },
-  {
-    "title": "Unarmed Fighting Techniques of the Samurai",
-    "asin": "4770030592"
-  },
-  {
-    "title": "Secrets from the Ninja Grandmaster",
-    "asin": "1581603754"
-  },
-  {
-    "title": "Essence of Ninjutsu: The Nine Traditions",
-    "asin": "0809247240"
-  },
-  {
-    "title": "The Grandmaster's Book of Ninja Training",
-    "asin": "0809246295"
-  },
-  {
-    "title": "Ninjutsu. History and Tradition",
-    "asin": "0865680272"
-  },
-  {
-    "title": "Understand? Good Play!",
-    "asin": "0971084955"
-  },
-  {
-    "title": "Stick Fighting: Techniques of Self-Defense",
-    "asin": "0870114751"
-  },
-  {
-    "title": "Hanbo-Jutsu: Kukishin Ryu",
-    "asin": "3924862052"
-  },
-  {
-    "title": "Ninja: The Invisible Assassins",
-    "asin": "089750030X"
-  },
-  {
-    "title": "Ninja 1: Spirit of the Shadow Warrior ",
-    "asin": "0897500733"
-  },
-  {
-    "title": "Ninja 2: Warrior Ways of Enlightenment",
-    "asin": "0897500776"
-  },
-  {
-    "title": "Ninja 3: Warrior Path of Togakure",
-    "asin": "0897500903"
-  },
-  {
-    "title": "Ninja 4: Legacy of the Night Warrior",
-    "asin": "0897501020"
-  },
-  {
-    "title": "Ninja 5: Lore of the Shinobi Warrior",
-    "asin": "0897501233"
-  },
-  {
-    "title": "Ninja 6: Secret Scrolls of the Warrior Sage",
-    "asin": "089750156X"
-  },
-  {
-    "title": "The Book of Ninja: The Bansenshukai",
-    "asin": "1780284934"
-  },
-  {
-    "title": "True Path of the Ninja",
-    "asin": "4805311142"
-  },
-  {
-    "title": "The Ninpiden - True Ninja Traditions",
-    "asin": "1604818301"
-  },
-  {
-    "title": "The Secret Traditions of the Shinobi",
-    "asin": "1583944354"
-  },
-  {
-    "title": "Kokoro no Katachi: Das Wesen des Kokoro",
-    "asin": "3940404071"
-  },
-  {
-    "title": "The Art of Life and Death: Lessons in Budo from a Ninja Master",
-    "asin": "080484304X"
-  },
-  {
-    "title": "The Ninja and Their Secret Fighting Art",
-    "asin": "0804816565"
-  },
-  {
-    "title": "The Mystic Arts Of The Ninja",
-    "asin": "0809253437"
-  },
-  {
-    "title": "Ninja",
-    "asin": "3613305879"
-  },
-  {
-    "title": "Ninja und Japanische Kampfmönche",
-    "asin": "3877486312"
-  },
-  {
-    "title": "Die Kunst des Krieges",
-    "asin": "3937872876"
-  },
-  {
-    "title": "Das Buch der fünf Ringe",
-    "asin": "3933321646"
-  },
-  {
-    "title": "Hagakure",
-    "asin": "3868201211"
-  },
-  {
-    "title": "Der Weg des Samurai: Anleitung zum strategischen Handeln",
-    "asin": "3492236316"
-  },
-  {
-    "title": "Bushidô: Die sieben Tugenden des Samurai",
-    "asin": "3492046622"
-  },
-  {
-    "title": "Samurai und Kriegskunst",
-    "cover": "/assets/images/recommendations/books/samurai-und-kriegskunst.jpg",
-    "asin": "3924862311"
-  },
-  {
-    "title": "Engaging Japanese Philosophy",
-    "asin": "0824874072"
-  },
-  {
-    "title": "Japanische Schwertschmiedekunst",
-    "asin": "3931425010"
-  },
-  {
-    "title": "Waffen und Schwertzierate Japans",
-    "cover": "/assets/images/recommendations/books/waffen-und-schwertzierate-japans.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70050"
-  },
-  {
-    "title": "Japanisches Wappenbuch - Nihon moncho",
-    "cover": "/assets/images/recommendations/books/japanisches-wappenbuch.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70040"
-  },
-  {
-    "title": "Yamato",
-    "cover": "/assets/images/recommendations/books/yamato.jpg",
-    "link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70132"
-  },
-  {
-    "title": "Meifu Shinkage Ryû: Fundô kusarijutsu - Shurikenjutsu",
-    "cover": "/assets/images/recommendations/books/meifu-shinkage-ryu-de.jpg",
-    "asin": "3924862249"
-  },
-  {
-    "title": "Takamatsu Toshitsugu: Die Biographie einer Kampfkunstlegende",
-    "asin": "3924862117"
-  },
-  {
-    "title": "Ninja Attack!",
-    "asin": "477003119X"
-  },
-  {
-    "title": "Bruce Lee: The Art of Expressing the Human Body",
-    "asin": "0804831297"
-  },
-  {
-    "title": "Tao Te King",
-    "asin": "3866474652"
-  },
-  {
-    "title": "Der Lauf des Wassers",
-    "asin": "3458346392"
-  },
-  {
-    "title": "In der Mitte des Kreises",
-    "asin": "3458344594"
-  },
-  {
-    "title": "Die Shaolin-Mönche",
-    "asin": "3862280322"
-  }
+	{
+		"title": "Gyokko Ryû Taijutsu no Kata: Bujinkan Budô Denshô",
+		"cover": "/assets/images/recommendations/books/gyokko-ryu-taijutsu-no-kata-de.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70152"
+	},
+	{
+		"title": "Kukishinden Ryû Taijutsu no Kata: Bujinkan Budô Densho",
+		"cover": "/assets/images/recommendations/books/kukishinden-ryu-taijutsu-no-kata-de.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70153"
+	},
+	{
+		"title": "Togakure Ryû Taijutsu no Kata: Bujinkan Budô Densho",
+		"cover": "/assets/images/recommendations/books/togakure-ryu-taijutsu-no-kata-de.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70155"
+	},
+	{
+		"title": "Kotô Ryû Taijutsu no Kata: Bujinkan Budô Densho",
+		"cover": "/assets/images/recommendations/books/koto-ryu-taijutsu-no-kata-de.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70162"
+	},
+	{
+		"title": "Shinden Fudô Ryû Daken taijutsu no Kata: Bujinkan Budô Densho",
+		"cover": "/assets/images/recommendations/books/shinden-fudo-ryu-dakentaijutsu-de.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70166"
+	},
+	{
+		"title": "Shinden-Fudo Ryû Jûtaijutsu no kata: Bujinkan Budô densho",
+		"cover": "/assets/images/recommendations/books/shinden-fudo-ryu-jutaijutsu-no-kata-de.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70170"
+	},
+	{
+		"title": "Takagi-Yôshin-Ryû Taijutsu no Kata: Bujinkan Budô Denshô",
+		"cover": "/assets/images/recommendations/books/takagi-yoshin-ryu-taijutsu-no-kata-de.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70173"
+	},
+	{
+		"title": "Ten Ryaku no Maki: Strategien des Himmels",
+		"cover": "/assets/images/recommendations/books/ten-ryaku-no-maki-de.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70178"
+	},
+	{
+		"title": "Chi Ryaku no Maki: Strategien der Erde",
+		"cover": "/assets/images/recommendations/books/chi-ryaku-no-maki-de.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70179"
+	},
+	{
+		"title": "Jin Ryaku no Maki: Strategien des Menschen",
+		"cover": "/assets/images/recommendations/books/jin-ryaku-no-maki-de.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70184"
+	},
+	{
+		"title": "The Way of the Ninja: Secret Techniques",
+		"asin": "4770028059"
+	},
+	{
+		"title": "Art of Japanese Sword Fighting: Secrets of the Samurai",
+		"asin": "4770021984"
+	},
+	{
+		"title": "Advanced Stick Fighting",
+		"asin": "4770029969"
+	},
+	{
+		"title": "Unarmed Fighting Techniques of the Samurai",
+		"asin": "4770030592"
+	},
+	{
+		"title": "Secrets from the Ninja Grandmaster",
+		"asin": "1581603754"
+	},
+	{
+		"title": "Essence of Ninjutsu: The Nine Traditions",
+		"asin": "0809247240"
+	},
+	{
+		"title": "The Grandmaster's Book of Ninja Training",
+		"asin": "0809246295"
+	},
+	{
+		"title": "Ninjutsu. History and Tradition",
+		"asin": "0865680272"
+	},
+	{
+		"title": "Understand? Good Play!",
+		"asin": "0971084955"
+	},
+	{
+		"title": "Stick Fighting: Techniques of Self-Defense",
+		"asin": "0870114751"
+	},
+	{
+		"title": "Hanbo-Jutsu: Kukishin Ryu",
+		"asin": "3924862052"
+	},
+	{
+		"title": "Ninja: The Invisible Assassins",
+		"asin": "089750030X"
+	},
+	{
+		"title": "Ninja 1: Spirit of the Shadow Warrior ",
+		"asin": "0897500733"
+	},
+	{
+		"title": "Ninja 2: Warrior Ways of Enlightenment",
+		"asin": "0897500776"
+	},
+	{
+		"title": "Ninja 3: Warrior Path of Togakure",
+		"asin": "0897500903"
+	},
+	{
+		"title": "Ninja 4: Legacy of the Night Warrior",
+		"asin": "0897501020"
+	},
+	{
+		"title": "Ninja 5: Lore of the Shinobi Warrior",
+		"asin": "0897501233"
+	},
+	{
+		"title": "Ninja 6: Secret Scrolls of the Warrior Sage",
+		"asin": "089750156X"
+	},
+	{
+		"title": "The Book of Ninja: The Bansenshukai",
+		"asin": "1780284934"
+	},
+	{
+		"title": "True Path of the Ninja",
+		"asin": "4805311142"
+	},
+	{
+		"title": "The Ninpiden - True Ninja Traditions",
+		"asin": "1604818301"
+	},
+	{
+		"title": "The Secret Traditions of the Shinobi",
+		"asin": "1583944354"
+	},
+	{
+		"title": "Kokoro no Katachi: Das Wesen des Kokoro",
+		"asin": "3940404071"
+	},
+	{
+		"title": "The Art of Life and Death: Lessons in Budo from a Ninja Master",
+		"asin": "080484304X"
+	},
+	{
+		"title": "The Ninja and Their Secret Fighting Art",
+		"asin": "0804816565"
+	},
+	{
+		"title": "The Mystic Arts Of The Ninja",
+		"asin": "0809253437"
+	},
+	{
+		"title": "Ninja",
+		"asin": "3613305879"
+	},
+	{
+		"title": "Ninja und Japanische Kampfmönche",
+		"asin": "3877486312"
+	},
+	{
+		"title": "Die Kunst des Krieges",
+		"asin": "3937872876"
+	},
+	{
+		"title": "Das Buch der fünf Ringe",
+		"asin": "3933321646"
+	},
+	{
+		"title": "Hagakure",
+		"asin": "3868201211"
+	},
+	{
+		"title": "Der Weg des Samurai: Anleitung zum strategischen Handeln",
+		"asin": "3492236316"
+	},
+	{
+		"title": "Bushidô: Die sieben Tugenden des Samurai",
+		"asin": "3492046622"
+	},
+	{
+		"title": "Samurai und Kriegskunst",
+		"cover": "/assets/images/recommendations/books/samurai-und-kriegskunst.jpg",
+		"asin": "3924862311"
+	},
+	{
+		"title": "Engaging Japanese Philosophy",
+		"asin": "0824874072"
+	},
+	{
+		"title": "Japanische Schwertschmiedekunst",
+		"asin": "3931425010"
+	},
+	{
+		"title": "Waffen und Schwertzierate Japans",
+		"cover": "/assets/images/recommendations/books/waffen-und-schwertzierate-japans.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70050"
+	},
+	{
+		"title": "Japanisches Wappenbuch - Nihon moncho",
+		"cover": "/assets/images/recommendations/books/japanisches-wappenbuch.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70040"
+	},
+	{
+		"title": "Yamato",
+		"cover": "/assets/images/recommendations/books/yamato.jpg",
+		"link": "https://www.tengu-publishing.de/de/index.php?site=artikel&artikelnr=70132"
+	},
+	{
+		"title": "Meifu Shinkage Ryû: Fundô kusarijutsu - Shurikenjutsu",
+		"cover": "/assets/images/recommendations/books/meifu-shinkage-ryu-de.jpg",
+		"asin": "3924862249"
+	},
+	{
+		"title": "Takamatsu Toshitsugu: Die Biographie einer Kampfkunstlegende",
+		"asin": "3924862117"
+	},
+	{
+		"title": "Ninja Attack!",
+		"asin": "477003119X"
+	},
+	{
+		"title": "Bruce Lee: The Art of Expressing the Human Body",
+		"asin": "0804831297"
+	},
+	{
+		"title": "Tao Te King",
+		"asin": "3866474652"
+	},
+	{
+		"title": "Der Lauf des Wassers",
+		"asin": "3458346392"
+	},
+	{
+		"title": "In der Mitte des Kreises",
+		"asin": "3458344594"
+	},
+	{
+		"title": "Die Shaolin-Mönche",
+		"asin": "3862280322"
+	}
 ]

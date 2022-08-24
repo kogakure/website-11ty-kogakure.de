@@ -1,48 +1,48 @@
 /** Pagination */
 .pagination {
-  border-radius: 50%;
-  inset-block-start: calc(50% - 20px);
-  position: fixed;
+	border-radius: 50%;
+	inset-block-start: calc(50% - 20px);
+	position: fixed;
 }
 
 .pagination-start {
-  inset-inline-start: 1rem;
+	inset-inline-start: 1rem;
 }
 
 .pagination-end {
-  inset-inline-end: 1rem;
+	inset-inline-end: 1rem;
 }
 
 .pagination-container {
-  align-items: center;
-  background-color: var(--color-fg-feather);
-  border-radius: 50%;
-  border-width: 0;
-  cursor: pointer;
-  display: flex;
-  font-size: 16px;
-  height: 40px;
-  justify-content: center;
-  outline: none;
-  transition-duration: var(--transition-duration-5);
-  transition-property: opacity;
-  transition-timing-function: ease-in-out;
-  width: 40px;
+	align-items: center;
+	background-color: var(--color-fg-feather);
+	border-radius: 50%;
+	border-width: 0;
+	cursor: pointer;
+	display: flex;
+	font-size: 16px;
+	height: 40px;
+	justify-content: center;
+	outline: none;
+	transition-duration: var(--transition-duration-5);
+	transition-property: opacity;
+	transition-timing-function: ease-in-out;
+	width: 40px;
 
-  a:hover &,
-  a:focus & {
-    background-color: var(--color-fg-soft);
-  }
+	a:hover &,
+	a:focus & {
+		background-color: var(--color-fg-soft);
+	}
 
-  .scroll-up & {
-    opacity: 1;
-  }
+	.scroll-up & {
+		opacity: 1;
+	}
 
-  .scroll-down & {
-    opacity: 0;
-  }
+	.scroll-down & {
+		opacity: 0;
+	}
 }
 
 .pagination-icon {
-  fill: var(--color-fg);
+	fill: var(--color-fg);
 }

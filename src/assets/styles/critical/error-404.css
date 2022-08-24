@@ -3,36 +3,36 @@
 
 /** Error 404 Page */
 @keyframes ninja {
-  0% {
-    transform: rotate(0deg) translateX(0);
-  }
-  50% {
-    transform: rotate(360deg) translateX(-100px);
-  }
-  100% {
-    transform: rotate(0deg) translateX(0);
-  }
+	0% {
+		transform: rotate(0deg) translateX(0);
+	}
+	50% {
+		transform: rotate(360deg) translateX(-100px);
+	}
+	100% {
+		transform: rotate(0deg) translateX(0);
+	}
 }
 
 .sewer {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-block-start: var(--space-10);
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-block-start: var(--space-10);
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-  .ninja-turtles {
-    animation: none;
-    position: relative;
-    width: clamp(200px, 30vw, 667px);
-    z-index: 1;
-  }
+	.ninja-turtles {
+		animation: none;
+		position: relative;
+		width: clamp(200px, 30vw, 667px);
+		z-index: 1;
+	}
 }
 
 .ninja-turtles {
-  animation: ninja 60s linear 0s infinite normal;
-  position: relative;
-  width: clamp(200px, 30vw, 667px);
-  z-index: 1;
+	animation: ninja 60s linear 0s infinite normal;
+	position: relative;
+	width: clamp(200px, 30vw, 667px);
+	z-index: 1;
 }

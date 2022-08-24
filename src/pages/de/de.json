@@ -1,5 +1,5 @@
 {
-  "locale": "de",
-  "dir": "ltr",
-  "permalink": "/{{ page.fileSlug }}/"
+	"locale": "de",
+	"dir": "ltr",
+	"permalink": "/{{ page.fileSlug }}/"
 }

@@ -1,53 +1,55 @@
-{% if locale === "de" %}{% set localizedDescription = site.description['de'] %}{% endif %}
-{% if locale === "en" %}{% set localizedDescription = site.description['en']  %}{% endif %}
+{% if locale === "de" %}{% set localizedDescription = site.description['de'] %}
+{% endif %}
+{% if locale === "en" %}{% set localizedDescription = site.description['en'] %}
+{% endif %}
 
 {%- set ogTitle -%}
-  {%- if page.url === "/" or page.url === "/en/" -%}
-    {{ site.title }} · {{ localizedDescription }} 
-  {%- else -%}
-    {{ title }} · {{ site.title }}
-  {%- endif -%}
+{%- if page.url === "/" or page.url === "/en/" -%}
+	{{ site.title }} · {{ localizedDescription }}
+{%- else -%}
+	{{ title }} · {{ site.title }}
+{%- endif -%}
 {%- endset -%}
 
 {%- set ogDescription -%}
-  {%- if page.url === "/" or page.url === "/en/" -%}
-    {{ localizedDescription }}
-  {%- else -%}
-    {{ excerpt or title }}
-  {%- endif -%}
+{%- if page.url === "/" or page.url === "/en/" -%}
+	{{ localizedDescription }}
+{%- else -%}
+	{{ excerpt or title }}
+{%- endif -%}
 {%- endset -%}
 
 {%- set ogImage -%}
-  {%- if og -%}
-    {{ site.url }}/assets/images/branding/og/{{ og }}
-  {%- else -%}
-    {% if locale === "en" %}
-      {{ site.url }}/assets/images/branding/og/banner-en.png
-    {% else %}
-      {{ site.url }}/assets/images/branding/og/banner-de.png
-    {% endif %}
-  {%- endif -%}
+{%- if og -%}
+	{{ site.url }}/assets/images/branding/og/{{ og }}
+{%- else -%}
+	{% if locale === "en" %}
+		{{ site.url }}/assets/images/branding/og/banner-en.png
+	{% else %}
+		{{ site.url }}/assets/images/branding/og/banner-de.png
+	{% endif %}
+{%- endif -%}
 {%- endset -%}
 
 <!-- Meta -->
-<meta name="author" content="{{ site.author }}" />
-<meta name="description" content="{{ ogDescription }}" />
-<meta name="theme-color" content="#e7e6e4" />
-<meta name="generator" content="{{ eleventy.generator }}" />
+<meta name="author" content="{{ site.author }}"/>
+<meta name="description" content="{{ ogDescription }}"/>
+<meta name="theme-color" content="#e7e6e4"/>
+<meta name="generator" content="{{ eleventy.generator }}"/>
 
 <!-- Open graph -->
-<meta property="og:title" content="{{ ogTitle }}" />
-<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-<meta property="og:description" content="{{ ogDescription }}" />
-<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ ogTitle }}"/>
+<meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+<meta property="og:description" content="{{ ogDescription }}"/>
+<meta property="og:type" content="article"/>
 <meta property="og:image" content="{{ ogImage }}"/>
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="675" />
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="675"/>
 
 <!-- Twitter -->
-<meta name="twitter:title" content="{{ ogTitle }}" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="{{ site.twitter }}" />
-<meta name="twitter:description" content="{{ ogDescription }}" />
-<meta name="twitter:image" content="{{ ogImage }}" />
-<meta name="twitter:creator" content="{{ site.twitter }}" />
+<meta name="twitter:title" content="{{ ogTitle }}"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="{{ site.twitter }}"/>
+<meta name="twitter:description" content="{{ ogDescription }}"/>
+<meta name="twitter:image" content="{{ ogImage }}"/>
+<meta name="twitter:creator" content="{{ site.twitter }}"/>

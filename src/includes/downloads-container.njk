@@ -1,43 +1,44 @@
 <article class="downloads-container rowgap">
-  <figure class="downloads-layout downloads-50-start" {{ site.animation }}>
-    <div class="image-shadow downloads-image-container">
-      <img src="/assets/images/downloads/ingo.jpg" alt=""/>
-    </div>
-    <figcaption>
-      <h2>{{ i18n[locale].downloads.font.headline }}<h2>
-      {{ i18n[locale].downloads.font.text | markdown | safe }}
-      <p>
-        {% more i18n[locale].downloads.font.more, "https://github.com/kogakure/font-ingo", true %}<br />
-        {% download i18n[locale].downloads.font.download, "/downloads/iga-ninja-font.zip" %}
-      </p>
-    </figcaption>
-  </figure>
-  <figure class="downloads-layout downloads-50-end" {{ site.animation }}>
-    <div class="image-shadow downloads-image-container">
-      <img src="/assets/images/downloads/ogama.jpg" alt=""/>
-    </div>
-    <figcaption>
-      <h2>{{ i18n[locale].downloads.cgi.headline }}</h2>
-      {{ i18n[locale].downloads.cgi.text | markdown | safe }}
-      <p>
-        {% more i18n[locale].downloads.cgi.more, "https://github.com/kogakure/3d-models-kogakure", true %}
-      </p>
-    </figcaption>
-  </figure>
-  {% if locale === "de" %}
-  <figure class="downloads-layout downloads-50-start" {{ site.animation }}>
-    <div class="image-shadow downloads-image-container">
-      <img src="/assets/images/chronology/gitbook-kogakure.jpg" alt=""/>
-    </div>
-    <figcaption>
-      <h2>{{ i18n[locale].downloads.book.headline }}</h2>
-      {{ i18n[locale].downloads.book.text | markdown | safe }}
-      <p>
-        {% download i18n[locale].downloads.book.pdf, "/downloads/book-kogakure.pdf", true %} •
-        {% download i18n[locale].downloads.book.epub, "/downloads/book-kogakure.epub" %} •
-        {% download i18n[locale].downloads.book.mobi, "/downloads/book-kogakure.mobi" %}
-      </p>
-    </figcaption>
-  </figure>
-  {% endif %}
-</article>
+	<figure class="downloads-layout downloads-50-start" {{ site.animation }}>
+		<div class="image-shadow downloads-image-container">
+			<img src="/assets/images/downloads/ingo.jpg" alt=""/>
+		</div>
+		<figcaption>
+			<h2>{{ i18n[locale].downloads.font.headline }}
+				<h2>
+					{{ i18n[locale].downloads.font.text | markdown | safe }}
+					<p>
+						{% more i18n[locale].downloads.font.more, "https://github.com/kogakure/font-ingo", true %}<br/>
+						{% download i18n[locale].downloads.font.download, "/downloads/iga-ninja-font.zip" %}
+					</p>
+				</figcaption>
+			</figure>
+			<figure class="downloads-layout downloads-50-end" {{ site.animation }}>
+				<div class="image-shadow downloads-image-container">
+					<img src="/assets/images/downloads/ogama.jpg" alt=""/>
+				</div>
+				<figcaption>
+					<h2>{{ i18n[locale].downloads.cgi.headline }}</h2>
+					{{ i18n[locale].downloads.cgi.text | markdown | safe }}
+					<p>
+						{% more i18n[locale].downloads.cgi.more, "https://github.com/kogakure/3d-models-kogakure", true %}
+					</p>
+				</figcaption>
+			</figure>
+			{% if locale === "de" %}
+				<figure class="downloads-layout downloads-50-start" {{ site.animation }}>
+					<div class="image-shadow downloads-image-container">
+						<img src="/assets/images/chronology/gitbook-kogakure.jpg" alt=""/>
+					</div>
+					<figcaption>
+						<h2>{{ i18n[locale].downloads.book.headline }}</h2>
+						{{ i18n[locale].downloads.book.text | markdown | safe }}
+						<p>
+							{% download i18n[locale].downloads.book.pdf, "/downloads/book-kogakure.pdf", true %} •
+							{% download i18n[locale].downloads.book.epub, "/downloads/book-kogakure.epub" %} •
+							{% download i18n[locale].downloads.book.mobi, "/downloads/book-kogakure.mobi" %}
+						</p>
+					</figcaption>
+				</figure>
+			{% endif %}
+		</article>

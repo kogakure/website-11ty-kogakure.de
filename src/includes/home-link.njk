@@ -1,21 +1,21 @@
 {% if locale === "de" %}
-  {% set homeLink = "/" %}
+	{% set homeLink = "/" %}
 {% else %}
-  {% set homeLink = "/" + locale + "/" %}
+	{% set homeLink = "/" + locale + "/" %}
 {% endif %}
 
 {% if isHome %}
-  <div class="home-link-spacer"></div>
+	<div class="home-link-spacer"></div>
 {% else %}
-<a class="home-link" href="{{ homeLink }}" title="{{ i18n[locale].homeLink }}">
-    <button
-      class="home-link-button"
-      aria-label="{{ i18n[locale].homeLink }}"
-      type="button"
-    >
-      <svg class="home-link-icon" aria-hidden="true"  viewBox="0 0 24 24" width="1em" height="1em">
-        <use xlink:href="#ancient-pavilion"></use>
-      </svg>
-    </button>
-  </a>
+	<a class="home-link" href="{{ homeLink }}" title="{{ i18n[locale].homeLink }}">
+		<button
+			class="home-link-button"
+			aria-label="{{ i18n[locale].homeLink }}"
+			type="button"
+		>
+			<svg class="home-link-icon" aria-hidden="true"	viewBox="0 0 24 24" width="1em" height="1em">
+				<use xlink:href="#ancient-pavilion"></use>
+			</svg>
+		</button>
+	</a>
 {% endif %}

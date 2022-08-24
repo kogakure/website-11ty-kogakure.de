@@ -1,68 +1,68 @@
 /** Table */
 table {
-  border-collapse: separate;
-  border-spacing: 0 1em;
-  font-size: var(--font-size-3);
-  margin-block-end: var(--space-10);
-  margin-block-start: var(--space-10);
-  width: 100%;
+	border-collapse: separate;
+	border-spacing: 0 1em;
+	font-size: var(--font-size-3);
+	margin-block-end: var(--space-10);
+	margin-block-start: var(--space-10);
+	width: 100%;
 
-  & thead tr:first-child {
-    background: var(--color-fg-feather);
-  }
+	& thead tr:first-child {
+		background: var(--color-fg-feather);
+	}
 
-  & tbody tr:last-child {
-    border-width: 0;
-  }
+	& tbody tr:last-child {
+		border-width: 0;
+	}
 
-  & th {
-    display: block;
-  }
+	& th {
+		display: block;
+	}
 
-  & td {
-    display: block;
-  }
+	& td {
+		display: block;
+	}
 
-  & tr {
-    border-block-end: var(--border-width-1);
-    border-block-start-width: var(--border-width-1);
-    border-color: var(--color-border);
-    border-inline-end-width: 0;
-    border-inline-start-width: 0;
-    border-style: solid;
-    margin-block-end: var(--space-5);
-  }
+	& tr {
+		border-block-end: var(--border-width-1);
+		border-block-start-width: var(--border-width-1);
+		border-color: var(--color-border);
+		border-inline-end-width: 0;
+		border-inline-start-width: 0;
+		border-style: solid;
+		margin-block-end: var(--space-5);
+	}
 
-  & thead th,
-  & tbody td {
-    font-weight: var(--font-weight-normal);
-    text-align: left;
-    vertical-align: middle;
-  }
+	& thead th,
+	& tbody td {
+		font-weight: var(--font-weight-normal);
+		text-align: left;
+		vertical-align: middle;
+	}
 
-  & thead th {
-    font-weight: var(--font-weight-black);
-    vertical-align: bottom;
-  }
+	& thead th {
+		font-weight: var(--font-weight-black);
+		vertical-align: bottom;
+	}
 
-  & caption + thead tr:first-child th,
-  & caption + thead tr:first-child td,
-  & colgroup + thead tr:first-child th,
-  & colgroup + thead tr:first-child td,
-  & thead:first-child tr:first-child th,
-  & thead:first-child tr:first-child td {
-    border-block-start: 0;
-  }
+	& caption + thead tr:first-child th,
+	& caption + thead tr:first-child td,
+	& colgroup + thead tr:first-child th,
+	& colgroup + thead tr:first-child td,
+	& thead:first-child tr:first-child th,
+	& thead:first-child tr:first-child td {
+		border-block-start: 0;
+	}
 
-  @media (--tablet) {
-    border-collapse: collapse;
-    border-spacing: 0;
+	@media (--tablet) {
+		border-collapse: collapse;
+		border-spacing: 0;
 
-    & th,
-    & td {
-      display: table-cell;
-      padding: var(--space-3);
-      vertical-align: top;
-    }
-  }
+		& th,
+		& td {
+			display: table-cell;
+			padding: var(--space-3);
+			vertical-align: top;
+		}
+	}
 }

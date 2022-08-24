@@ -2,26 +2,34 @@
 layout: narrow
 ---
 
-{% if locale === "de" %}{% set pageCollection = collections.sortedGermanBookPages %}{% endif %}
-{% if locale === "en" %}{% set pageCollection = collections.sortedEnglishBookPages %}{% endif %}
+{% if locale === "de" %}{% set pageCollection = collections.sortedGermanBookPages %}
+{% endif %}
+{% if locale === "en" %}{% set pageCollection = collections.sortedEnglishBookPages %}
+{% endif %}
 
 {% set previousPost = pageCollection | getPreviousCollectionItem(page) %}
 {% set nextPost = pageCollection | getNextCollectionItem(page) %}
 
 <article class="page-container">
-  <h1 class="page-title" >{{ title | nbsp | safe }}</h1>
-  <div class="page">
-    {{ content | safe }}
-  </div>
-  {% if author or translator %}
-    <hr />
-    <footer>
-      <small>
-        {% if author %}<strong>{{ i18n[locale].creditAuthor }}</strong> <em>{{ author }}</em>{% endif %}
-        {% if author and translator %} • {% endif %}
-        {% if translator %}<strong>{{ i18n[locale].creditTranslator }}</strong> <em>{{ translator }}</em>{% endif %}
-      </small>
-    </footer>
-  {% endif %}
-  {% include "pagination.njk" %}
+	<h1 class="page-title" >{{ title | nbsp | safe }}</h1>
+	<div class="page">
+		{{ content | safe }}
+	</div>
+	{% if author or translator %}
+		<hr/>
+		<footer>
+			<small>
+				{% if author %}
+					<strong>{{ i18n[locale].creditAuthor }}</strong>
+					<em>{{ author }}</em>
+				{% endif %}
+				{% if author and translator %} • {% endif %}
+				{% if translator %}
+					<strong>{{ i18n[locale].creditTranslator }}</strong>
+					<em>{{ translator }}</em>
+				{% endif %}
+			</small>
+		</footer>
+	{% endif %}
+	{% include "pagination.njk" %}
 </article>

@@ -1,20 +1,24 @@
 <span class="language-switcher">
-{% for lang in site.languages %}
-  {% if loop.first %}<ul class="language-switcher-list">{% endif %}
+	{% for lang in site.languages %}
+		{% if loop.first %}
+			<ul class="language-switcher-list">
+			{% endif %}
 
-  {% set translatedUrl = "/" + lang.language + "/" %}
-  {% set activeClass = "is-active" if lang.language == locale else "" %}
+			{% set translatedUrl = "/" + lang.language + "/" %}
+			{% set activeClass = "is-active" if lang.language == locale else "" %}
 
-  {% for item in collections.all %}
-    {% if item.data.translationKey == translationKey and item.data.locale == lang.language %}
-      {% set translatedUrl = item.url %}
-    {% endif %}
-  {% endfor %}
+			{% for item in collections.all %}
+				{% if item.data.translationKey == translationKey and item.data.locale == lang.language %}
+					{% set translatedUrl = item.url %}
+				{% endif %}
+			{% endfor %}
 
-  <li class="language-switcher-list-item">
-    <a class="language-switcher-link {{ activeClass }}" href="{{ translatedUrl }}">{{ lang.title }}</a>
-  </li>
+			<li class="language-switcher-list-item">
+				<a class="language-switcher-link {{ activeClass }}" href="{{ translatedUrl }}">{{ lang.title }}</a>
+			</li>
 
-  {% if loop.last %}</ul>{% endif %}
-{% endfor %}
+			{% if loop.last %}
+			</ul>
+		{% endif %}
+	{% endfor %}
 </span>

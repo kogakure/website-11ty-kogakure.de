@@ -1,5 +1,5 @@
 {
-  "layout": "page",
-  "tags": ["book", "english"],
-  "templateEngineOverride": "njk,md"
+	"layout": "page",
+	"tags": ["book", "english"],
+	"templateEngineOverride": "njk,md"
 }

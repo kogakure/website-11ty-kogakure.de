@@ -1,38 +1,38 @@
 /** Figure & Caption */
 figure {
-  margin-block-end: var(--space-10);
-  margin-block-start: 0;
-  margin-inline-end: 0;
-  margin-inline-start: 0;
+	margin-block-end: var(--space-10);
+	margin-block-start: 0;
+	margin-inline-end: 0;
+	margin-inline-start: 0;
 
-  &.light {
-    background: rgba(255, 255, 255, 0.8);
-    padding: var(--space-10);
-  }
+	&.light {
+		background: rgba(255, 255, 255, 0.8);
+		padding: var(--space-10);
+	}
 
-  &.dark {
-    background: rgba(0, 0, 0, 0.8);
-    padding: var(--space-10);
-  }
+	&.dark {
+		background: rgba(0, 0, 0, 0.8);
+		padding: var(--space-10);
+	}
 }
 
 .image-figure {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .image-figure img {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 .image-figure-image-container {
-  background-color: var(--color-fg-feather);
-  display: flex;
-  justify-content: center;
-  padding: var(--space-10);
+	background-color: var(--color-fg-feather);
+	display: flex;
+	justify-content: center;
+	padding: var(--space-10);
 }
 
 figcaption {
-  font-size: clamp(0.8rem, 0.8vw, 0.75rem);
-  text-align: center;
+	font-size: clamp(0.8rem, 0.8vw, 0.75rem);
+	text-align: center;
 }
