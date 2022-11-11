@@ -40,8 +40,8 @@ if ('querySelector' in document && 'localStorage' in window && 'addEventListener
 				event.preventDefault();
 
 				link.classList.remove('objuscated');
-				link.text = 'hey@imhoff.name';
-				link.href = 'mailto:hey@imhoff.name';
+				link.text = 'hey@kogakure.de';
+				link.href = 'mailto:hey@kogakure.de';
 
 				if (lock) {
 					lock.classList.remove('hidden');
