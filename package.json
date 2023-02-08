@@ -11,10 +11,10 @@
 		"debug": "DEBUG=* npx eleventy",
 		"deploy": "netlify deploy --prod",
 		"deploy:preview": "netflify deploy",
-		"dev": "ELEVENTY_ENV=development npm run watch",
+		"dev": "ELEVENTY_ENV=development pnpm run watch",
 		"live": "netlify dev --live",
-		"prebuild": "npm run clean",
-		"prestart": "npm run clean",
+		"prebuild": "pnpm run clean",
+		"prestart": "pnpm run clean",
 		"publish": "npm-run-all build deploy",
 		"start": "netlify dev",
 		"svg": "gulp svg",
@@ -41,7 +41,7 @@
 		"del-cli": "^3.0.1",
 		"eleventy-nbsp-filter": "^0.1.0",
 		"eleventy-plugin-lazyimages": "^2.1.0",
-		"eslint": "^7.25.0",
+		"eslint": "^7.29.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^3.4.0",
 		"gulp": "^4.0.2",
@@ -58,7 +58,7 @@
 		"netlify-cli": "^3.39.4",
 		"npm-run-all": "^4.1.5",
 		"outdent": "^0.8.0",
-		"postcss": "^8.2.13",
+		"postcss": "^8.3.5",
 		"postcss-100vh-fix": "^1.0.2",
 		"postcss-cli": "^8.3.1",
 		"postcss-custom-media": "^8.0.0",
@@ -68,8 +68,8 @@
 		"postcss-media-minmax": "^5.0.0",
 		"postcss-nested": "^5.0.5",
 		"postcss-sort-media-queries": "^3.8.9",
-		"prettier": "^2.2.1",
-		"sal.js": "^0.8.4",
+		"prettier": "^2.3.2",
+		"sal.js": "^0.8.5",
 		"stylelint": "^13.13.0",
 		"stylelint-a11y": "^1.2.3",
 		"stylelint-config-prettier": "^8.0.2",
@@ -82,5 +82,8 @@
 		"vinyl-buffer": "^1.0.1",
 		"vinyl-source-stream": "^2.0.0",
 		"workbox-cli": "^6.1.5"
+	},
+	"dependencies": {
+		"@babel/core": "^7.14.6"
 	}
 }
