@@ -35,6 +35,7 @@
 	"devDependencies": {
 		"@11ty/eleventy": "1.0.1",
 		"@babel/core": "^7.14.6",
+		"@babel/preset-env": "^7.24.4",
 		"autoprefixer": "^10.2.5",
 		"babelify": "^10.0.0",
 		"browserify": "^17.0.0",
@@ -53,6 +54,7 @@
 		"gulp-sourcemaps": "^3.0.0",
 		"gulp-svg-sprite": "^1.5.0",
 		"html-minifier": "^4.0.0",
+		"markdown-it": "^14.1.0",
 		"markdown-it-external-anchor": "^1.0.0",
 		"markdown-it-github-headings": "^2.0.0",
 		"moment": "^2.29.1",
