@@ -4,7 +4,7 @@ const glossary = require('./glossary.json');
 
 module.exports = {
 	homepage: {
-		intro: 'Dies ist 木隠 (jap. *kogakure*, <q>Verborgen hinter Blättern und Bäumen.</q>), eine Sammlung von Texten über Ninja und Ninjutsu, mit der ich 1999 begonnen habe. Im Laufe der Jahre kamen immer mehr Seiten, Bilder und Illustrationen hinzu, bis schließlich dieses Buch daraus wurde.',
+		intro: 'Dies ist 木隠 (jap. *kogakure*, <q>Verborgen hinter Blättern und Bäumen</q>), eine Sammlung von Texten über Ninja und Ninjutsu, mit der ich 1999 begonnen habe. Im Laufe der Jahre kamen immer mehr Seiten, Bilder und Illustrationen hinzu, bis schließlich dieses Buch daraus wurde.',
 		tocHeadline: 'Inhaltsverzeichnis',
 	},
 	downloads: {
