@@ -1,6 +1,6 @@
-FROM --platform=linux/amd64 node:lts
+# Stage 1: Build the application
+FROM node:lts AS builder
 
-RUN npm install -g http-server
 RUN npm install -g pnpm
 
 WORKDIR /app
@@ -13,5 +13,12 @@ COPY . .
 
 RUN pnpm run build
 
-EXPOSE 8080
-CMD [ "http-server", "dist" ]
+# Stage 2: Serve the application using Nginx
+FROM nginx:stable-alpine
+
+# Copy build artifacts from the builder stage
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
