@@ -34,6 +34,7 @@
 	"homepage": "https://www.kogakure.de",
 	"devDependencies": {
 		"@11ty/eleventy": "1.0.1",
+		"@babel/core": "^7.14.6",
 		"autoprefixer": "^10.2.5",
 		"babelify": "^10.0.0",
 		"browserify": "^17.0.0",
@@ -56,6 +57,8 @@
 		"markdown-it-github-headings": "^2.0.0",
 		"moment": "^2.29.1",
 		"netlify-cli": "^3.39.4",
+		"node-addon-api": "^8.0.0",
+		"node-gyp": "^10.1.0",
 		"npm-run-all": "^4.1.5",
 		"outdent": "^0.8.0",
 		"postcss": "^8.3.5",
@@ -70,6 +73,7 @@
 		"postcss-sort-media-queries": "^3.8.9",
 		"prettier": "^2.3.2",
 		"sal.js": "^0.8.5",
+		"sharp": "^0.33.3",
 		"stylelint": "^13.13.0",
 		"stylelint-a11y": "^1.2.3",
 		"stylelint-config-prettier": "^8.0.2",
@@ -82,8 +86,5 @@
 		"vinyl-buffer": "^1.0.1",
 		"vinyl-source-stream": "^2.0.0",
 		"workbox-cli": "^6.1.5"
-	},
-	"dependencies": {
-		"@babel/core": "^7.14.6"
 	}
 }
