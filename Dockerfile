@@ -16,6 +16,12 @@ RUN pnpm run build
 # Stage 2: Serve the application using Nginx
 FROM nginx:stable-alpine
 
+# Remove the default nginx.conf
+RUN rm /etc/nginx/conf.d/default.conf
+
+# Copy custom nginx configuration
+COPY ./nginx.conf /etc/nginx/conf.d/default.conf
+
 # Copy build artifacts from the builder stage
 COPY --from=builder /app/dist /usr/share/nginx/html
 
