@@ -1,5 +1,5 @@
 # Stage 1: Build the application
-FROM node:lts AS builder
+FROM --platform=linux/amd64 node:lts AS builder
 
 RUN npm install -g pnpm
 
