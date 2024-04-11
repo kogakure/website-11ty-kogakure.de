@@ -41,7 +41,7 @@ If you find a link on my website that links to a website that violates applicabl
 
 ### Data Protection
 
-I take the protection of your personal data very seriously and strictly adhere to the rules of data protection laws. **I don’t collect _any_ data**.
+This website uses Umami, an open-source, privacy-focused analytics platform, to collect anonymized data about visitors’ interactions with the site. No personally identifiable information is tracked or stored. This data is only used to understand and improve the website experience, and is never sold or shared with third parties.
 
 [eleventy]: https://www.11ty.dev/
 [affinity designer]: https://affinity.serif.com/designer/
