@@ -7,7 +7,7 @@
 {% if isHome %}
 	<div class="home-link-spacer"></div>
 {% else %}
-	<a class="home-link" href="{{ homeLink }}" title="{{ i18n[locale].homeLink }}">
+	<a class="home-link" href="{{ homeLink }}" title="{{ i18n[locale].homeLink }}" data-umami-event="{{ i18n[locale].homeLink }}">
 		<button
 			class="home-link-button"
 			aria-label="{{ i18n[locale].homeLink }}"

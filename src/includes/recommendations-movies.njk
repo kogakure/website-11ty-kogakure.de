@@ -11,6 +11,7 @@
 				{% if movie.asin %}
 					<a
 						class="product"
+						data-umami-event="{{ movie.title }}"
 						href="{{ affiliateUrl }}"
 						rel="nofollow noopener noreferrer external"
 						target="_blank"
@@ -31,6 +32,7 @@
 				{% elif movie.imdb %}
 					<a
 						class="product"
+						data-umami-event="{{ movie.title }}"
 						href="https://www.imdb.com/title/{{ movie.imdb }}"
 						rel="nofollow noopener noreferrer external"
 						target="_blank"

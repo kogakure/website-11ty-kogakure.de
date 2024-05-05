@@ -16,6 +16,7 @@ module.exports = {
 		const html = outdent`
     <a class="product" href="${affiliateUrl}" rel="nofollow noopener noreferrer external" target="_blank">
       <img
+    		data-umami-event="${alt}"
         alt="${alt}"
         class="product-cover"
         src="${amazonImageUrl}"
@@ -81,7 +82,7 @@ module.exports = {
 		}
 
 		const html = outdent`
-    <a href="${url}" ${externalLink}>${text}<span class="more-icon">
+    <a href="${url}" ${externalLink} data-umami-event="${text}">${text}<span class="more-icon">
         <svg aria-hidden="true" viewBox="0 0 24 24" width="1em" height="1em">
           <use xlink:href="#arrow-right"></use>
         </svg>
@@ -100,7 +101,7 @@ module.exports = {
 		}
 
 		const html = outdent`
-    <a href="${url}" ${externalLink}>${text}<span class="download-icon">
+    <a href="${url}" ${externalLink} data-umami-event="${text}">${text}<span class="download-icon">
         <svg aria-hidden="true" viewBox="0 0 24 24" width="1em" height="1em">
           <use xlink:href="#download"></use>
         </svg>
@@ -111,13 +112,14 @@ module.exports = {
 	email: function (text, key = false) {
 		const downloadText = 'Download public key (ProtonMail/GPG)';
 		const link = outdent`
-    <a id="email" class="objuscated" href="mailto:hey (at) imhoff (dot) name">${text}</a>`;
+    <a id="email" class="objuscated" href="mailto:hey (at) imhoff (dot) name" data-umami-event="${text}">${text}</a>`;
 		const keyDownload = outdent`
     <span id="lock-box" class="lock-box hidden">
       <a
-        title="${downloadText}"
+				data-umami-event="${downloadText}"
         aria-label="${downloadText}"
         href="https://www.stefanimhoff.de/downloads/publickey.hey@stefanimhoff.de-9cb867d4ccd2c1d7d9fde82f4b649797f3e007a9.asc"
+        title="${downloadText}"
       >
         <svg class="lock-icon" aria-hidden="true" viewBox="0 0 24 24" width="1em" height="1em">
           <use xlink:href="#lock"></use>

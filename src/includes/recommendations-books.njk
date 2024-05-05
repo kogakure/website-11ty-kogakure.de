@@ -11,6 +11,7 @@
 				{% if book.asin %}
 					<a
 						class="product"
+						data-umami-event="{{ book.title }}"
 						href="{{ affiliateUrl }}"
 						rel="nofollow noopener noreferrer external"
 						target="_blank"
@@ -35,6 +36,7 @@
 							href="{{ book.link }}"
 							rel="nofollow noopener noreferrer external"
 							target="_blank"
+						  data-umami-event="{{ book.title }}"
 						>
 							<img alt="{{ book.title }}" src="{{ book.cover }}"/>
 						</a>

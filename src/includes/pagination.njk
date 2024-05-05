@@ -1,8 +1,9 @@
 {% if previousPost %}
-	<a 
-		aria-label="{{ previousPost.data.title }}" 
-		class="pagination pagination-start" 
-		href="{{ previousPost.url }}" 
+	<a
+		aria-label="{{ previousPost.data.title }}"
+		class="pagination pagination-start"
+		data-umami-event="{{ previousPost.data.title }}"
+		href="{{ previousPost.url }}"
 		rel="prev"
 		title="{{ previousPost.data.title }}"
 	>
@@ -11,10 +12,11 @@
 {% endif %}
 
 {% if nextPost %}
-	<a 
-		aria-label="{{ nextPost.data.title }}" 
-		class="pagination pagination-end" 
-		href="{{ nextPost.url }}" 
+	<a
+		aria-label="{{ nextPost.data.title }}"
+		class="pagination pagination-end"
+		data-umami-event="{{ nextPost.data.title }}"
+		href="{{ nextPost.url }}"
 		rel="next"
 		title="{{ nextPost.data.title }}"
 	>

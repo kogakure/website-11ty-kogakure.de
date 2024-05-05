@@ -14,7 +14,7 @@
 			{% endfor %}
 
 			<li class="language-switcher-list-item">
-				<a class="language-switcher-link {{ activeClass }}" href="{{ translatedUrl }}">{{ lang.title }}</a>
+				<a class="language-switcher-link {{ activeClass }}" href="{{ translatedUrl }}" data-umami-event="Language Switch {{ lang.title }}">{{ lang.title }}</a>
 			</li>
 
 			{% if loop.last %}
