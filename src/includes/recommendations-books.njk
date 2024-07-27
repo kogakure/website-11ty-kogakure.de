@@ -1,6 +1,6 @@
-{% if locale === "en" %}{% set affiliateUrl = "http://www.amazon.de/gp/product/{{ book.asin }}?ie=UTF8&amp;tag=stefanimhoffde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=6742&amp;creativeASIN={{ book.asin }}" %}
+{% if locale === "en" %}{% set url = "http://www.amazon.de/gp/product/{{ book.asin }}" %}
 {% endif %}
-{% if locale === "en" %}{% set affiliateUrl = "https://www.amazon.com/gp/product/{{ book.asin }}/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN={{ book.asin }}&amp;linkCode=as2&amp;tag=kogakure-20" %}
+{% if locale === "en" %}{% set url = "https://www.amazon.com/gp/product/{{ book.asin }}" %}
 {% endif %}
 
 <div class="recommendations-books">
@@ -12,7 +12,7 @@
 					<a
 						class="product"
 						data-umami-event="{{ book.title }}"
-						href="{{ affiliateUrl }}"
+						href="{{ url }}"
 						rel="nofollow noopener noreferrer external"
 						target="_blank"
 					>

@@ -6,34 +6,6 @@
 	{{ i18n[locale].colophon.donation.text | markdown | safe }}
 	<ul class="colophon-donation-list">
 		<li class="colophon-donation-list-item">
-			<svg
-				class="colophon-donation-icon"
-				title="Bitcoin"
-				aria-hidden="true"
-				viewBox="0 0 24 24"
-				width="1em"
-				height="1em"
-			>
-				<use xlink:href="#bitcoin"></use>
-			</svg>
-			<pre class="colophon-dontation-crypto-hash">{{ site.bitcoin }}</pre
-			>
-		</li>
-		<li class="colophon-donation-list-item">
-			<svg
-				class="colophon-donation-icon"
-				title="Ethereum"
-				aria-hidden="true"
-				viewBox="0 0 24 24"
-				width="1em"
-				height="1em"
-			>
-				<use xlink:href="#ethereum"></use>
-			</svg>
-			<pre class="colophon-dontation-crypto-hash">{{ site.ethereum }}</pre
-			>
-		</li>
-		<li class="colophon-donation-list-item">
 			<a
 				data-umami-event="Paypal"
 				href="https://www.paypal.me/kogakure/"

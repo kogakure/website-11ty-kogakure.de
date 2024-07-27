@@ -59,7 +59,7 @@ module.exports = {
 		},
 		donation: {
 			headline: 'Donations',
-			text: 'This book is free, ad-free and has cost me many hundreds of hours of work over time.\n\nIf you enjoyed it, I welcome praise and recognition. You can support me by buying something from my [recommendations](/en/recommendations/) or by making a small donation.',
+			text: 'This book is free, ad-free and has cost me many hundreds of hours of work over time.\n\nIf you enjoyed it, I welcome praise and recognition. You can support me by making a small donation.',
 			paypal: 'Donate With PayPal',
 		},
 		tech: {

@@ -59,7 +59,7 @@ module.exports = {
 		},
 		donation: {
 			headline: 'Spenden',
-			text: 'Dieses Buch ist kostenlos, werbefrei und hat mich im Laufe der Zeit viele hundert Stunden Arbeit gekostet.\n\nWenn es dir gefallen hat, freue ich mich über Lob und Anerkennung. Du kannst mich unterstützen, indem du etwas aus meinen [Empfehlungen](/empfehlungen/) kaufst oder mir eine kleine Spende zukommen lässt.',
+			text: 'Dieses Buch ist kostenlos, werbefrei und hat mich im Laufe der Zeit viele hundert Stunden Arbeit gekostet.\n\nWenn es dir gefallen hat, freue ich mich über Lob und Anerkennung. Du kannst mich unterstützen, indem mir eine kleine Spende zukommen lässt.',
 			paypal: 'Spenden mit PayPal',
 		},
 		tech: {

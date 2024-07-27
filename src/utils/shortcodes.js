@@ -4,17 +4,17 @@ const outdent = require('outdent')({
 
 module.exports = {
 	product: function (asin, alt = '', lang = 'de') {
-		let affiliateUrl;
+		let url;
 		const amazonImageUrl = `https://images-na.ssl-images-amazon.com/images/P/${asin}.01.LZZZZZZZ.jpg`;
 
 		if (lang === 'en') {
-			affiliateUrl = `https://www.amazon.com/gp/product/${asin}/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=${asin}&linkCode=as2&tag=kogakure-20`;
+			url = `https://www.amazon.com/gp/product/${asin}`;
 		} else {
-			affiliateUrl = `http://www.amazon.de/gp/product/${asin}?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=${asin}`;
+			url = `http://www.amazon.de/gp/product/${asin}`;
 		}
 
 		const html = outdent`
-    <a class="product" href="${affiliateUrl}" rel="nofollow noopener noreferrer external" target="_blank">
+    <a class="product" href="${url}" rel="nofollow noopener noreferrer external" target="_blank">
       <img
     		data-umami-event="${alt}"
         alt="${alt}"
