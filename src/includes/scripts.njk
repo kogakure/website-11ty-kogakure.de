@@ -7,4 +7,6 @@
 <script>
 	{{ js | jsmin | safe }}
 </script>
+{% if site.isProduction %}
 <script defer src="https://umami.kogakure.cloud/script.js" data-website-id="5e9cff30-527b-460b-b5ce-a1de01404c06"></script>
+{% endif %}
