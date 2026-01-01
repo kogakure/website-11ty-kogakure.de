@@ -1,5 +1,5 @@
 [![Live](https://img.shields.io/badge/live-kogakure.de-green.svg)](https://www.kogakure.de/)
-![Maintenance](https://img.shields.io/maintenance/yes/2025.svg)
+![Maintenance](https://img.shields.io/maintenance/yes/2026.svg)
 
 # kogakure.de
 
