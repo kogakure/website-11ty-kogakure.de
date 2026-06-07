@@ -29,6 +29,22 @@
 	"author": "Stefan Imhoff",
 	"license": "ISC",
 	"homepage": "https://www.kogakure.de",
+	"packageManager": "pnpm@10.18.0",
+	"engines": {
+		"node": ">=22.13.0",
+		"pnpm": ">=10.0.0"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"es5-ext",
+			"fsevents",
+			"gifsicle",
+			"mozjpeg",
+			"optipng-bin",
+			"phantomjs-prebuilt",
+			"sharp"
+		]
+	},
 	"devDependencies": {
 		"@11ty/eleventy": "1.0.1",
 		"@babel/core": "^7.14.6",
