@@ -3,7 +3,7 @@
 
 # kogakure.de
 
-This the source of my [Ninja and Ninjutsu book][kogakure] build with [Eleventy], [PostCSS], and [Gulp].
+This the source of my [Ninja and Ninjutsu book](https://www.kogakure.de) build with [Eleventy](https://www.11ty.dev/), [PostCSS](https://postcss.org/), and [Gulp](https://gulpjs.com/).
 
 ## Installation
 
@@ -21,12 +21,6 @@ For more tasks have a look into the `package.json`.
 
 ## License
 
-All content is copyrighted by [Stefan Imhoff][si] unless otherwise stated. Feel free to learn from the source code and reuse code for your projects. The only thing which is not allowed is the usage of my design (the unique combination of layout, fonts, images), private photos and logo.
+All content is copyrighted by [Stefan Imhoff](https://www.stefanimhoff.de) unless otherwise stated. Feel free to learn from the source code and reuse code for your projects. The only thing which is not allowed is the usage of my design (the unique combination of layout, fonts, images), private photos and logo.
 
 In easier words: **This is not a free theme**. Learn from it. Remix. Reuse. Build your own stuff. 🤘
-
-[eleventy]: https://www.11ty.dev/
-[gulp]: https://gulpjs.com/
-[kogakure]: https://www.kogakure.de
-[postcss]: https://postcss.org/
-[si]: https://www.stefanimhoff.de
