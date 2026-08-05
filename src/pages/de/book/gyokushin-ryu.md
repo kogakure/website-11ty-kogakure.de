@@ -50,7 +50,7 @@ Kano Jigoro, der Gründer des Jūdō war ein Freund von Takamatsu Sensei. Es wir
 
 {% productshelf %}
 
-<a class="product" href="http://www.amazon.de/gp/product/3924862184?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3924862184" rel="nofollow noopener noreferrer external" target="_blank">
+<a class="product" href="https://www.amazon.de/gp/product/3924862184?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3924862184" rel="nofollow noopener noreferrer external" target="_blank">
   <img
     alt="Togakure Ryû Taijutsu no Kata: Bujinkan Budô Densho"
     class="product-cover"

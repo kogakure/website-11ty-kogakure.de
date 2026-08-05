@@ -95,9 +95,9 @@ Training under Hatsumi is said to have been very hard at first, but in 1988, at 
 
 Since 1995 the martial art in Bujinkan has been uniformly called **Budō Taijutsu**.
 
-## Meister von neun Schulen
+## Master of Nine Schools
 
-Hatsumi ist legitimer Nachfolger der neun Ryūha:
+Hatsumi is the legitimate successor of the nine Ryūha:
 
 - 34\. sōke – Togakure-Ryū Ninpō
 - 28\. sōke – Gyokko-Ryū _koshi jutsu_

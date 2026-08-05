@@ -38,8 +38,9 @@ npx prettier --check .
 
 - `src/pages/de/` — German content (main language)
 - `src/pages/en/` — English content
-- `src/data/de.json` / `src/data/en.json` — language JSON data files
-- `src/includes/language-switcher.njk` — language toggle UI
+- `src/data/i18n.js` — loads UI strings from `src/data/translations/{de,en}/` (`books.json`, `glossary.json`, `movies.json`, `preface.json`, `toc.json`); exposed to templates as `i18n[locale]`
+- `src/pages/de/de.json` / `src/pages/en/en.json` — Eleventy directory data files setting `locale`, `dir`, and the permalink scheme (DE is root-relative, EN is prefixed with `/en/`)
+- `src/includes/language-switcher.njk` — language toggle UI; matches pages across languages on the `translationKey` front matter field
 - Collections in `src/utils/collections.js` separate pages by `tags: ['book', 'german']` / `['book', 'english']`
 
 **Templates:** Nunjucks (`.njk`) for layouts/includes, Markdown for content pages, both can use Nunjucks templating.

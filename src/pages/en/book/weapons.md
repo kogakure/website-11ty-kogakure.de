@@ -159,7 +159,7 @@ The _half staff_ or stick, although very short at 3 feet, was a very effective w
 
 {% endfigure %}
 
-The _half staff_ or stick, although very short at 3 feet, was a very effective weapon. The correct term is actually _sanshakubōa_. The bow of the Ninja was far shorter than the bow of the Samurai. This made it easier to transport and hide. The shorter range usually didn’t matter much, as Ninja rarely needed to hit distant targets on the battlefield, most of the time only close targets. Explosives or incendiary materials were often attached to the arrows, especially since almost all buildings in Japan were made of wood. You could also use special arrows to cut ropes or create a howling sound that terrified enemies.
+The bow of the Ninja was far shorter than the bow of the Samurai. This made it easier to transport and hide. The shorter range usually didn’t matter much, as Ninja rarely needed to hit distant targets on the battlefield, most of the time only close targets. Explosives or incendiary materials were often attached to the arrows, especially since almost all buildings in Japan were made of wood. You could also use special arrows to cut ropes or create a howling sound that terrified enemies.
 
 ## Hira shuriken
 

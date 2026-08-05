@@ -3,11 +3,11 @@ title: "The 5 Commandments of the Ninja"
 priority: 810
 date: 2006-04-02T15:21:00+02:00
 author: "Stefan Imhoff"
-excerpt: "5 Gebote von Hatsumi Masaaki, an die man sich, wann immer man traurig, unglücklich, krank, verwundet oder verzweifelt ist, erinnern soll."
+excerpt: "Five commandments by Hatsumi Masaaki to be remembered whenever one is sad, unhappy, sick, wounded, or in despair."
 translationKey: "5CommandmentsOfNinjaPage"
 categories:
-  - philosophie
-  - richtlinien
+  - philosophy
+  - guidelines
 ---
 
 > Whenever one is sad, unhappy, sick, wounded, or in despair, one should remember these five commandments.

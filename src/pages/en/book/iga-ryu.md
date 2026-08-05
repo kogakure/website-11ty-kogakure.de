@@ -7,8 +7,8 @@ translator: "Stefan Imhoff"
 excerpt: "Iga Ryū was built in one of the most favorable strategic locations in the region, in inaccessible mountain and forest regions, near important main roads."
 translationKey: "igaRyuPage"
 categories:
-  - biographie
-  - geschichte
+  - biography
+  - history
 ---
 
 ## Location of the Iga Region

@@ -1,34 +1,23 @@
-{% if locale === "en" %}{% set url = "http://www.amazon.de/gp/product/{{ movie.asin }}" %}
-{% endif %}
-{% if locale === "en" %}{% set url = "https://www.amazon.com/gp/product/{{ movie.asin }}" %}
-{% endif %}
-
 <div class="recommendations-movies">
 	<h2>{{ i18n[locale].recommendations.movies.headline }}</h2>
 	<article class="recommendations-container">
 		{% for movie in movieCollection %}
 			<div {{ site.animation }}>
 				{% if movie.asin %}
-					<a
-						class="product"
-						data-umami-event="{{ movie.title }}"
-						href="{{ url }}"
-						rel="nofollow noopener noreferrer external"
-						target="_blank"
-					>
-						{% if movie.cover %}
+					{% if movie.cover %}
+						{% set amazonUrl = ("https://www.amazon.com/gp/product/" + movie.asin) if locale === "en" else ("https://www.amazon.de/gp/product/" + movie.asin) %}
+						<a
+							class="product"
+							data-umami-event="{{ movie.title }}"
+							href="{{ amazonUrl }}"
+							rel="nofollow noopener noreferrer external"
+							target="_blank"
+						>
 							<img alt="{{ movie.title }}" src="{{ movie.cover }}"/>
-						{% else %}
-							{% if locale === "en" %}
-								{% product movie.asin,
-								movie.title,
-								"en" %}
-							{% else %}
-								{% product movie.asin,
-								movie.title %}
-							{% endif %}
-						{% endif %}
-					</a>
+						</a>
+					{% else %}
+						{% product movie.asin, movie.title, locale %}
+					{% endif %}
 				{% elif movie.imdb %}
 					<a
 						class="product"

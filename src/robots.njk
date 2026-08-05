@@ -3,6 +3,8 @@ layout: false
 permalink: robots.txt
 ---
 User-agent: *
+# Keep the retired /sprueche/ path excluded from crawlers and archives.
+# Do not remove: required for legal reasons, even though the route no longer exists.
 Disallow: /sprueche/
 
 Sitemap: {{ site.url }}/sitemap.xml

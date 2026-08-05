@@ -6,7 +6,7 @@ author: "Stefan Imhoff"
 excerpt: "Bujinkan is the name of the organization that brings together nine warrior and Ninja Ryū. She was given this title to honor Takamatsu."
 translationKey: "bujinkanPage"
 categories:
-  - organisation
+  - organization
   - schools
 ---
 

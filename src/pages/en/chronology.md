@@ -160,7 +160,7 @@ I used **GitBook** to write my book and also for hosting and delivering the eBoo
 
 As part of the revision I fixed numerous errors, looked over each article, added new images and replaced graphics with SVG wherever possible.
 
-![eBook von kogakure in GitBook geschrieben](/assets/images/chronology/gitbook-kogakure.jpg)
+![eBook of kogakure written in GitBook](/assets/images/chronology/gitbook-kogakure.jpg)
 
 ### Aug 13, 2017
 

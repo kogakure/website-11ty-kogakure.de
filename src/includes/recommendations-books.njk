@@ -1,48 +1,35 @@
-{% if locale === "en" %}{% set url = "http://www.amazon.de/gp/product/{{ book.asin }}" %}
-{% endif %}
-{% if locale === "en" %}{% set url = "https://www.amazon.com/gp/product/{{ book.asin }}" %}
-{% endif %}
-
 <div class="recommendations-books">
 	<h2>{{ i18n[locale].recommendations.books.headline }}</h2>
 	<article class="recommendations-container">
 		{% for book in bookCollection %}
 			<div {{ site.animation }}>
 				{% if book.asin %}
-					<a
-						class="product"
-						data-umami-event="{{ book.title }}"
-						href="{{ url }}"
-						rel="nofollow noopener noreferrer external"
-						target="_blank"
-					>
-						{% if book.cover %}
-							<img alt="{{ book.title }}" src="{{ book.cover }}"/>
-						{% else %}
-							{% if locale === "en" %}
-								{% product book.asin,
-								book.title,
-								"en" %}
-							{% else %}
-								{% product book.asin,
-								book.title %}
-							{% endif %}
-						{% endif %}
-					</a>
-				{% else %}
-					{% if book.link %}
+					{% if book.cover %}
+						{% set amazonUrl = ("https://www.amazon.com/gp/product/" + book.asin) if locale === "en" else ("https://www.amazon.de/gp/product/" + book.asin) %}
 						<a
 							class="product"
-							href="{{ book.link }}"
+							data-umami-event="{{ book.title }}"
+							href="{{ amazonUrl }}"
 							rel="nofollow noopener noreferrer external"
 							target="_blank"
-						  data-umami-event="{{ book.title }}"
 						>
 							<img alt="{{ book.title }}" src="{{ book.cover }}"/>
 						</a>
 					{% else %}
-						<img alt="{{ book.title }}" src="{{ book.cover }}"/>
+						{% product book.asin, book.title, locale %}
 					{% endif %}
+				{% elif book.link %}
+					<a
+						class="product"
+						data-umami-event="{{ book.title }}"
+						href="{{ book.link }}"
+						rel="nofollow noopener noreferrer external"
+						target="_blank"
+					>
+						<img alt="{{ book.title }}" src="{{ book.cover }}"/>
+					</a>
+				{% else %}
+					<img alt="{{ book.title }}" src="{{ book.cover }}"/>
 				{% endif %}
 				<h3 class="recommendations-product-title">
 					{{ book.title }}
