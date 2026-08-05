@@ -6,7 +6,7 @@ author: "Stefan Imhoff"
 excerpt: "The Gogyō is a Daoist element system based on the polarity theory of yin and yang. This model is intended to show how all elements are linked, create or destroy themselves."
 translationKey: "gogyoPage"
 categories:
-  - philosophie
+  - philosophy
 ---
 
 ## The Theory of the Five Elements

@@ -1,0 +1,8 @@
+allowBuilds:
+  es5-ext: true
+  fsevents: true
+  gifsicle: true
+  mozjpeg: true
+  optipng-bin: true
+  phantomjs-prebuilt: true
+  sharp: true

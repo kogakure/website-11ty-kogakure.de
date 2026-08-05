@@ -52,7 +52,7 @@ Takamatsu Toshitsugu startete sein Training im Koto-Ryū als er 9 Jahre alt war 
 
 {% productshelf %}
 
-<a class="product" href="http://www.amazon.de/gp/product/3924862214?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3924862214" rel="nofollow noopener noreferrer external" target="_blank">
+<a class="product" href="https://www.amazon.de/gp/product/3924862214?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3924862214" rel="nofollow noopener noreferrer external" target="_blank">
   <img
     alt="Kotô Ryû Taijutsu no Kata: Bujinkan Budô Densho"
     class="product-cover"

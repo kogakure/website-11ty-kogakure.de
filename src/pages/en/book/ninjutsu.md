@@ -5,7 +5,7 @@ priority: 5
 author: "Stefan Imhoff"
 excerpt: "The basic idea of Ninjutsu is not assassinations and espionage, but the development of a free and just spirit. History has falsified the reputation of the Ninja, which continues into modern times and is also maintained by the media."
 translationKey: "ninjutsuPage"
-tags:
+categories:
   - history
   - philosophy
 ---

@@ -7,7 +7,7 @@ excerpt: "Breathing involves hitting or pressing on the nerve points of the body
 translationKey: "atemitePage"
 categories:
   - training
-  - waffen
+  - weapons
 ---
 
 ## Pressure and Blow to Nerve Points

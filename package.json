@@ -12,7 +12,6 @@
 		"dev": "ELEVENTY_ENV=development pnpm run watch",
 		"prebuild": "pnpm run clean",
 		"prestart": "pnpm run clean",
-		"publish": "npm-run-all build deploy",
 		"start": "pnpm run dev",
 		"svg": "gulp svg",
 		"watch": "npm-run-all --parallel watch:*",
@@ -29,21 +28,10 @@
 	"author": "Stefan Imhoff",
 	"license": "ISC",
 	"homepage": "https://www.kogakure.de",
-	"packageManager": "pnpm@10.18.0",
+	"packageManager": "pnpm@11.20.0",
 	"engines": {
 		"node": ">=22.13.0",
-		"pnpm": ">=10.0.0"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"es5-ext",
-			"fsevents",
-			"gifsicle",
-			"mozjpeg",
-			"optipng-bin",
-			"phantomjs-prebuilt",
-			"sharp"
-		]
+		"pnpm": ">=11.0.0"
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "1.0.1",

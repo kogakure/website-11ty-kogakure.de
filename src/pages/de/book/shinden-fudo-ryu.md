@@ -63,7 +63,7 @@ Takamatsu wurde das erste Jahr, als er bei seinem Großvater Toda den Shinden-fu
 
 {% productshelf %}
 
-<a class="product" href="http://www.amazon.de/gp/product/3924862257?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3924862257" rel="nofollow noopener noreferrer external" target="_blank">
+<a class="product" href="https://www.amazon.de/gp/product/3924862257?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3924862257" rel="nofollow noopener noreferrer external" target="_blank">
   <img
     alt="Shinden Fudô Ryû Dakentaijutsu no Kata: Bujinkan Budô Densho"
     class="product-cover"
@@ -71,7 +71,7 @@ Takamatsu wurde das erste Jahr, als er bei seinem Großvater Toda den Shinden-fu
   />
 </a>
 
-<a class="product" href="http://www.amazon.de/gp/product/392486229X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=392486229X" rel="nofollow noopener noreferrer external" target="_blank">
+<a class="product" href="https://www.amazon.de/gp/product/392486229X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=392486229X" rel="nofollow noopener noreferrer external" target="_blank">
   <img
     alt="Shinden-Fudo Ryû Jûtaijutsu no kata: Bujinkan Budô Densho"
     class="product-cover"

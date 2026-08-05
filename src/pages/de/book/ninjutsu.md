@@ -5,7 +5,7 @@ priority: 5
 author: "Stefan Imhoff"
 excerpt: "Grundgedanke des Ninjutsu sind nicht Attentate und Spionage, sondern die Entwicklung eines freien und gerechten Geistes. Die Geschichte hat den Ruf der Ninja verfälscht, was bis in die Moderne anhält und auch von den Medien weitergepflegt wird."
 translationKey: "ninjutsuPage"
-tags:
+categories:
   - geschichte
   - philosophie
 ---

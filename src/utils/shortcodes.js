@@ -10,7 +10,7 @@ module.exports = {
 		if (lang === 'en') {
 			url = `https://www.amazon.com/gp/product/${asin}`;
 		} else {
-			url = `http://www.amazon.de/gp/product/${asin}`;
+			url = `https://www.amazon.de/gp/product/${asin}`;
 		}
 
 		const html = outdent`

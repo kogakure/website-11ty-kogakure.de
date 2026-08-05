@@ -52,7 +52,7 @@ Der Ryū wurde zu Takamatsu Toshitsugu durch Mizuta Tadafusa Yoshitaro im August
 
 {% productshelf %}
 
-<a class="product" href="http://www.amazon.de/gp/product/392486232X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=392486232X" rel="nofollow noopener noreferrer external" target="_blank">
+<a class="product" href="https://www.amazon.de/gp/product/392486232X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=392486232X" rel="nofollow noopener noreferrer external" target="_blank">
   <img
     alt="Takagi-Yôshin-Ryû Taijutsu no Kata: Bujinkan Budô Denshô"
     class="product-cover"

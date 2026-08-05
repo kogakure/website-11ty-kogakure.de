@@ -3,7 +3,7 @@ title: "Kamae"
 priority: 340
 date: 2006-03-30T19:50:00+02:00
 author: "Stefan Imhoff"
-excerpt: "Die Kamae sind im Ninjutsu Teil des natürlichen Bewegungablaufes und keine statischen Stellungen. Sie spiegeln nur die innere Einstellung des Kämpfers wieder und dienen keinem ästhetischen Zweck."
+excerpt: "In Ninjutsu the kamae are part of the natural flow of movement and not static positions. They merely reflect the inner attitude of the fighter and serve no aesthetic purpose."
 translationKey: "kamaePage"
 categories:
   - training

@@ -132,7 +132,7 @@ To start training silent movement, first, observe nature and how noise is made. 
 
 Now that you know how noise is made, just make sure you don’t make it. After that, training begins on boards, leaves, grass, gravel, etc.
 
-According to Stephen K. Hayes, laying out a few layers of wet newspaper on the floor is particularly effective. If you didn’t walk properly, you can tell by the creases and folds in the newspaper surface</q>.
+According to Stephen K. Hayes, it is <q>particularly effective to lay out a few layers of wet newspaper on the floor. If you didn’t walk properly, you can tell by the creases and folds in the newspaper surface</q>.
 
 The following list may help you learn the techniques:
 
